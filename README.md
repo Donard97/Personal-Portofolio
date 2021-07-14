@@ -13,7 +13,7 @@ http://127.0.0.1:5500/index.html
 
 # AUTHOR
  
-Donard Golaj 
+Donard Golaj <br>
 Github : [Donard97] https://github.com/Donard97 <br>
 Twitter: [donardgolaj] https://twitter.com/donardgolaj <br>
 Linkdn : [donard-golaj] https://www.linkedin.com/in/donard-golaj/ <br>
