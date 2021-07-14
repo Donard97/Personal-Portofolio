@@ -4,28 +4,28 @@ body {
     justify-content: center;
     background-color: #ffff;
     font-family: "Inter", sans-serif;
-  }
-  
-  header {
+}
+
+header {
     width: 100%;
     position: absolute;
     top: 0;
-  }
-  
-  header nav {
+}
+
+header nav {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
-  }
-  
-  header nav .menu-icon {
+}
+
+header nav .menu-icon {
     width: 18px;
     height: 12px;
     margin-top: 64px;
     padding-right: 24px;
-  }
-  
-  header nav h3 {
+}
+
+header nav h3 {
     width: 90px;
     height: 28px;
     font-weight: 600;
@@ -34,17 +34,17 @@ body {
     margin-left: 24px;
     color: #28352f;
     margin-top: 54px;
-  }
-  
-  header nav img {
+}
+
+header nav img {
     margin-left: 210px;
     cursor: pointer;
     color: #28352f;
-  }
+}
 
-  /* First section style */
-  
-  section {
+/* First section style */
+
+section {
     width: 100%;
     position: absolute;
     margin-top: 7.2rem;
@@ -52,9 +52,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 105%;
-  }
-  
-  section .content h1 {
+}
+
+section .content h1 {
     position: static;
     width: 327px;
     height: 192px;
@@ -66,13 +66,13 @@ body {
     line-height: 52px;
     text-align: center;
     color: #172b4d;
-  }
-  
-  section .content h1 span {
+}
+
+section .content h1 span {
     color: #36b37e;
-  }
-  
-  section .content p {
+}
+
+section .content p {
     color: #172b4d;
     width: 327px;
     height: 164px;
@@ -85,31 +85,31 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     margin-left: 24px;
-  }
-  
-  .content-list {
+}
+
+.content-list {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 50px;
     margin-left: 62px;
-  }
-  
-  .content-list li {
+}
+
+.content-list li {
     list-style-type: none;
-  }
-  
-  .content-list li a {
+}
+
+.content-list li a {
     padding: 9px;
     list-style: none;
-  }
-  
-  .content-list li a img {
+}
+
+.content-list li a img {
     width: 20px;
     height: 20px;
-  }
-  
-  #btn {
+}
+
+#btn {
     top: 47rem;
     position: relative;
     background: white;
@@ -118,32 +118,31 @@ body {
     width: 40px;
     height: 40px;
     cursor: pointer;
-  }
-  
-  @media screen and (min-width: 376px) and (max-width: 426px) {
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) {
     ul {
-      margin-top: 115px;
-      margin-left: 73px;
+        margin-top: 115px;
+        margin-left: 73px;
     }
-  
+
     #btn {
-      top: 51rem;
+        top: 51rem;
     }
-  
+
     section {
-      height: 120%;
+        height: 120%;
     }
-    
+
     .content {
-      margin-top: 8rem;
-      margin-left: 1.3rem;
+        margin-top: 8rem;
+        margin-left: 1.3rem;
     }
-  }
-  
-  @media only screen and (max-width: 325px) {
+}
+
+@media only screen and (max-width: 325px) {
     ul {
-      margin-top: 50px;
-      margin-left: 45px;
+        margin-top: 50px;
+        margin-left: 45px;
     }
-  }
-  
+}
