@@ -1,5 +1,4 @@
 # Personal-Portofolio
-# MY PORTFOLIO
 
 ![image](https://user-images.githubusercontent.com/74506933/124952226-55e57180-e014-11eb-9970-21993938129c.png)
 
