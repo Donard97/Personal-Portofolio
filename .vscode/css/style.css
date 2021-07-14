@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    font-family: "Inter", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  header nav {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  header nav .menu-icon {
+    width: 18px;
+    height: 12px;
+    margin-top: 64px;
+    padding-right: 24px;
+  }
+  
+  header nav h3 {
+    width: 90px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 24px;
+    color: #28352f;
+    margin-top: 54px;
+  }
+  
+  header nav img {
+    margin-left: 210px;
+    cursor: pointer;
+    color: #28352f;
+  }
