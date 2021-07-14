@@ -36,13 +36,16 @@ header nav h3 {
   margin-top: 54px;
 }
 
+header nav h3 a {
+    text-decoration: none;
+    color:#28352f;
+}
+
 header nav img {
   margin-left: 210px;
   cursor: pointer;
   color: #28352f;
 }
-
-/* First section style */
 
 section {
   width: 100%;
