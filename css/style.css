@@ -316,6 +316,11 @@ button.btn-1 {
   cursor: pointer;
 }
 
+button.btn-1:hover {
+  color: white;
+  background: #008552;
+}
+
 .dsc-project {
   display: flex;
   flex-direction: column;
@@ -333,7 +338,7 @@ button.btn-1 {
 }
 
 .section-2 .about-me {
-  margin-top: 215rem;
+  margin-top: 205rem;
   text-align: center;
   background-image: url("../images/aboutme.png");
   background-repeat: no-repeat;
@@ -391,18 +396,15 @@ button.btn-1 {
   line-height: 24px;
   cursor: pointer;
 }
-.skills-section>.section-2 {
-  display: grid;
-  grid-template-columns: 1;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.skills-content {
-  background: #ebf0ee;
+.section-2 .about-me .btn-2:hover {
+  color: white;
+  background: #008552;
 }
 
 .skills-section {
+  display: grid;
+  grid-template-columns: 1;
+  grid-gap: 2rem;
   margin-top: 248rem;
   width: 327px;
   height: 352px;
@@ -410,6 +412,10 @@ button.btn-1 {
   position: absolute;
   left: 7%;
   padding-right: 10%;
+}
+
+.skills-content {
+  background: #ebf0ee;
 }
 
 .skills-section .skills-content {
@@ -468,28 +474,22 @@ button.btn-1 {
 
 .skills-section .skills-content .language-1 .languages .about-lng {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 12px;
 }
 
 .frameworks .frameworks-list .about-frw {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 12px;
 }
 
 .skills-1 .skills .about-skills {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 12px;
 }
 
@@ -498,17 +498,17 @@ button.btn-1 {
   font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
   background: #fff;
   border-radius: 8px;
   padding: 6px;
+  margin: 3px;
 }
 
 .frameworks .frameworks-list .about-frw .frw-1 {
@@ -516,17 +516,17 @@ button.btn-1 {
   font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
   background: #fff;
   border-radius: 8px;
   padding: 6px;
+  margin: 3px;
 }
 
 .skills-1 .skills .about-skills .skills-2 {
@@ -534,7 +534,7 @@ button.btn-1 {
   font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
@@ -545,6 +545,7 @@ button.btn-1 {
   background: #fff;
   border-radius: 8px;
   padding: 6px;
+  margin: 3px;
 }
 
 #image-1 {
@@ -557,4 +558,13 @@ button.btn-1 {
 
 #image-3 {
   margin-left: 4rem;
+}
+li.languages {
+  margin-right: 2rem;
+}
+li.frameworks-list {
+  margin-right: 2rem;
+}
+li.skills {
+  margin-right: 2rem;
 }
