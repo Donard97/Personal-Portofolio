@@ -311,7 +311,52 @@ button.btn-1:hover {
   justify-content: center;
   flex-wrap: nowrap;
   background: white;
+  padding: 0;
+  position: relative;
+  width: 327px;
+  height: 232px;
+  left: calc(50% - 329px / 2);
+  border-radius: 8px;
+  margin-top: -16.9rem;
+}
+
+#dsc-project-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: white;
   padding: 0px;
+  position: relative;
+  width: 327px;
+  height: 232px;
+  left: calc(50% - 329px / 2);
+  border-radius: 8px;
+  margin-top: -15.8rem;
+}
+
+#dsc-project-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: white;
+  padding: 0px;
+  position: relative;
+  width: 327px;
+  height: 232px;
+  left: calc(50% - 329px / 2);
+  border-radius: 8px;
+  margin-top: -15.8rem;
+}
+
+#dsc-project-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: white;
+  padding: 0;
   position: relative;
   width: 327px;
   height: 232px;
@@ -383,7 +428,7 @@ button.btn-1:hover {
 .skills-section {
   display: grid;
   grid-gap: 2rem;
-  margin-top: 248rem;
+  margin-top: 236rem;
   width: 327px;
   height: 352px;
   margin-right: 7%;
