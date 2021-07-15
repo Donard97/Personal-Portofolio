@@ -326,7 +326,7 @@ button.btn-1:hover {
   justify-content: center;
   flex-wrap: nowrap;
   background: white;
-  padding: 0px;
+  padding: 0;
   position: relative;
   width: 327px;
   height: 232px;
@@ -341,7 +341,7 @@ button.btn-1:hover {
   justify-content: center;
   flex-wrap: nowrap;
   background: white;
-  padding: 0px;
+  padding: 0;
   position: relative;
   width: 327px;
   height: 232px;
@@ -394,7 +394,7 @@ button.btn-1:hover {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 .section-2 .about-me .btn-2 {
@@ -409,7 +409,7 @@ button.btn-1:hover {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 24px 0;
   color: white;
   outline: none;
   border: none;
@@ -452,7 +452,7 @@ button.btn-1:hover {
 
 .frameworks .frameworks-list h3 {
   position: static;
-  top: 0px;
+  top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -467,7 +467,7 @@ button.btn-1:hover {
 
 .skills-section .skills-content .language-1 .languages h3 {
   position: static;
-  top: 0px;
+  top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -479,7 +479,7 @@ button.btn-1:hover {
 
 .skills-section .skills-content .skills-1 .skills h3 {
   position: static;
-  top: 0px;
+  top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -558,7 +558,6 @@ button.btn-1:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
   background: #fff;
   border-radius: 8px;
   padding: 6px;
