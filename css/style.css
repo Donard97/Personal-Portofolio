@@ -220,7 +220,6 @@ ul {
 
 .work-section > div {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px 0;
   font-size: 30px;
 }
 
@@ -306,7 +305,7 @@ button.btn-1:hover {
   background: #008552;
 }
 
-.dsc-project {
+#dsc-project {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -316,13 +315,13 @@ button.btn-1:hover {
   position: relative;
   width: 327px;
   height: 232px;
-  left: calc(50% - 351px / 2);
+  left: calc(50% - 329px / 2);
   border-radius: 8px;
-  margin-top: -15rem;
+  margin-top: -15.8rem;
 }
 
 .section-2 .about-me {
-  margin-top: 205rem;
+  margin-top: 200rem;
   text-align: center;
   background-image: url("../images/aboutme.png");
   background-repeat: no-repeat;
@@ -521,7 +520,15 @@ button.btn-1:hover {
   margin: 3px;
 }
 
-img#image-1 {
+#icon-1 {
+  margin-left: 3.8rem;
+}
+
+#icon-2 {
+  margin-left: 3.8rem;
+}
+
+#icon-3 {
   margin-left: 3.8rem;
 }
 
