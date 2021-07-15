@@ -204,7 +204,6 @@ section .content p {
   align-items: center;
   text-align: center;
   color: #3a4a42;
-  margin: 16px 0px;
 }
 
 ul {
@@ -271,7 +270,6 @@ li.project-header h3 {
   align-items: center;
   text-align: center;
   color: #3a4a42;
-  margin: 16px 0px;
 }
 
 li.btn-project-1 {
@@ -300,7 +298,6 @@ button.btn-1 {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-  margin: 0px 10px;
   cursor: pointer;
 }
 
@@ -346,8 +343,6 @@ button.btn-1:hover {
   position: static;
   width: 351px;
   height: 189px;
-  left: 0px;
-  top: 72px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -355,8 +350,6 @@ button.btn-1:hover {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  flex: none;
-  order: 1;
   margin: 24px 0px;
 }
 
@@ -390,7 +383,6 @@ button.btn-1:hover {
 
 .skills-section {
   display: grid;
-  grid-template-columns: 1;
   grid-gap: 2rem;
   margin-top: 248rem;
   width: 327px;
@@ -414,21 +406,6 @@ button.btn-1:hover {
   position: relative;
 }
 
-.skills-section .skills-content .language-1 .languages h3 {
-  position: static;
-  top: 0px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: #344563;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
 .frameworks .frameworks-list h3 {
   position: static;
   top: 0px;
@@ -444,6 +421,18 @@ button.btn-1:hover {
   flex-grow: 0;
 }
 
+.skills-section .skills-content .language-1 .languages h3 {
+  position: static;
+  top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
 .skills-section .skills-content .skills-1 .skills h3 {
   position: static;
   top: 0px;
@@ -454,9 +443,6 @@ button.btn-1:hover {
   line-height: 32px;
   text-align: center;
   color: #344563;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .skills-section .skills-content .language-1 .languages .about-lng {
@@ -536,14 +522,6 @@ button.btn-1:hover {
 }
 
 #image-1 {
-  margin-left: 4rem;
-}
-
-#image-2 {
-  margin-left: 4rem;
-}
-
-#image-3 {
   margin-left: 4rem;
 }
 
