@@ -178,7 +178,7 @@ section .content p {
   margin-left: 45%;
 }
 
-.work-section .first-project {
+.section-1 .first-project {
   position: static;
   left: 0;
   right: 0.6%;
@@ -189,7 +189,7 @@ section .content p {
   flex-grow: 0;
 }
 
-.work-section .first-project .dsc-project .project-header {
+.section-1 .first-project .dsc-project .project-header {
   position: static;
   width: 295px;
   height: 57px;
@@ -218,12 +218,12 @@ ul {
   padding: 10px;
 }
 
-.work-section > div {
+.section-1 > div {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
 }
 
-.section-1 .work-section .first-project {
+.section-1  .first-project {
   grid-column: 1;
 }
 
@@ -586,4 +586,127 @@ li.frameworks-list {
 
 li.skills {
   margin-right: 2rem;
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) {
+  .section-1 .first-header h2 {
+    margin-left: 4rem;
+  }
+
+  .section-1 .first-header span {
+    margin-left: 48%;
+  }
+
+  .section-1 .first-project .project-list {
+    margin-top: 55px;
+    margin-left: 26px;
+  }
+
+  #dsc-project {
+    margin-left: 0.3rem;
+  }
+
+  .section-1 .first-project .languages-used {
+    margin-left: -4.5rem;
+    margin-top: -8rem;
+  } 
+  .section-1 .second-project .project-list {
+    margin-top: 55px;
+    margin-left: 26px;
+  }
+
+  #dsc-project-1 {
+    margin-left: 0.3rem;
+    margin-top: -16.9rem;
+  }
+
+  .section-1 .second-project .languages-used {
+    margin-left: -4.5rem;
+    margin-top: -8rem;
+  } 
+
+  .section-1 .third-project .project-list {
+    margin-top: 55px;
+    margin-left: 26px;
+  }
+
+  #dsc-project-2 {
+    margin-left: 0.3rem;
+    margin-top: -16.9rem;
+  }
+
+  .section-1 .third-project .languages-used {
+    margin-left: -4.5rem;
+    margin-top: -8rem;
+  } 
+
+  .section-1 .fourth-project .languages-used {
+    margin-left: -4.5rem;
+    margin-top: -8rem;
+  } 
+
+  .section-1 .fourth-project .project-list {
+    margin-top: 55px;
+    margin-left: 26px;
+  }
+
+  #dsc-project-3 {
+    margin-left: 0.3rem;
+    margin-top: -16.9rem;
+  }
+
+  .section-1 .fourth-project .languages-used {
+    margin-left: -4.5rem;
+    margin-top: -8rem;
+  } 
+
+  .section-2 .about-me {
+    margin-top: 208rem;
+    margin-left: 2rem;
+  }
+
+  .skills-section {
+    margin-top: 245rem;
+  }
+
+  .section-2 .about-me .btn-2 {
+    margin-right: 2rem;
+  }
+
+  .skills-section .skills-content  {
+    margin-left: 1.5rem;
+    width: 327px;
+    height: 352px;
+  }
+
+  .skills-section .skills-content .language-1 {
+    margin-top: 29px;
+    margin-left: 2px;
+  }
+
+  .skills-section .skills-content .languages .about-lng {
+    margin-top: 23px;
+    margin-left: -9px;
+  }
+
+  .skills-section .skills-content .frameworks {
+    margin-top: 29px;
+    margin-left: 2px;
+  }
+
+  .skills-section .skills-content .frameworks-list .about-frw{
+    margin-top: 23px;
+    margin-left: -9px;
+  }
+
+  .skills-section .skills-content .skills-1 {
+    margin-top: 29px;
+    margin-left: 2px;
+  }
+
+  .skills-section .skills-content .skills .about-skills{
+    margin-top: 23px;
+    margin-left: -9px;
+  }
+
 }
