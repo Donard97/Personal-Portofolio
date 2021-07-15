@@ -149,6 +149,7 @@ section .content p {
     margin-left: 45px;
   }
 }
+
 .section-1 .first-header h2 {
   position: static;
   width: 327px;
@@ -203,9 +204,6 @@ section .content p {
   align-items: center;
   text-align: center;
   color: #3a4a42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 16px 0px;
 }
 
@@ -277,8 +275,8 @@ li.project-header h3 {
 }
 
 li.btn-project-1 {
-  justify-content: center;
   display: flex;
+  justify-content: center;
   margin: 2rem;
 }
 
@@ -302,9 +300,6 @@ button.btn-1 {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 10px;
   cursor: pointer;
 }
@@ -353,7 +348,7 @@ button.btn-1:hover {
   height: 189px;
   left: 0px;
   top: 72px;
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -387,6 +382,7 @@ button.btn-1:hover {
   line-height: 24px;
   cursor: pointer;
 }
+
 .section-2 .about-me .btn-2:hover {
   color: white;
   background: #008552;
@@ -421,7 +417,7 @@ button.btn-1:hover {
 .skills-section .skills-content .language-1 .languages h3 {
   position: static;
   top: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -436,7 +432,7 @@ button.btn-1:hover {
 .frameworks .frameworks-list h3 {
   position: static;
   top: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -451,7 +447,7 @@ button.btn-1:hover {
 .skills-section .skills-content .skills-1 .skills h3 {
   position: static;
   top: 0px;
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -486,7 +482,7 @@ button.btn-1:hover {
 
 .skills-section .skills-content .language-1 .languages .about-lng .lng-2 {
   position: static;
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -504,7 +500,7 @@ button.btn-1:hover {
 
 .frameworks .frameworks-list .about-frw .frw-1 {
   position: static;
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -522,7 +518,7 @@ button.btn-1:hover {
 
 .skills-1 .skills .about-skills .skills-2 {
   position: static;
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
