@@ -383,7 +383,7 @@ button.btn-1:hover {
   position: static;
   width: 351px;
   height: 189px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -449,7 +449,7 @@ button.btn-1:hover {
 .frameworks .frameworks-list h3 {
   position: static;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -464,7 +464,7 @@ button.btn-1:hover {
 .skills-section .skills-content .language-1 .languages h3 {
   position: static;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -476,7 +476,7 @@ button.btn-1:hover {
 .skills-section .skills-content .skills-1 .skills h3 {
   position: static;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -508,7 +508,7 @@ button.btn-1:hover {
 
 .skills-section .skills-content .language-1 .languages .about-lng .lng-2 {
   position: static;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -526,7 +526,7 @@ button.btn-1:hover {
 
 .frameworks .frameworks-list .about-frw .frw-1 {
   position: static;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -544,7 +544,7 @@ button.btn-1:hover {
 
 .skills-1 .skills .about-skills .skills-2 {
   position: static;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -605,7 +605,7 @@ li.skills {
   .section-1 .first-project .languages-used {
     margin-left: -4.5rem;
     margin-top: -8rem;
-  } 
+  }
 
   .section-1 .second-project .project-list {
     margin-top: 55px;
@@ -620,7 +620,7 @@ li.skills {
   .section-1 .second-project .languages-used {
     margin-left: -4.5rem;
     margin-top: -8rem;
-  } 
+  }
 
   .section-1 .third-project .project-list {
     margin-top: 55px;
@@ -635,12 +635,12 @@ li.skills {
   .section-1 .third-project .languages-used {
     margin-left: -4.5rem;
     margin-top: -8rem;
-  } 
+  }
 
   .section-1 .fourth-project .languages-used {
     margin-left: -4.5rem;
     margin-top: -8rem;
-  } 
+  }
 
   .section-1 .fourth-project .project-list {
     margin-top: 55px;
@@ -655,7 +655,7 @@ li.skills {
   .section-1 .fourth-project .languages-used {
     margin-left: -4.5rem;
     margin-top: -8rem;
-  } 
+  }
 
   .section-2 .about-me {
     margin-top: 208rem;
@@ -670,7 +670,7 @@ li.skills {
     margin-right: 2rem;
   }
 
-  .skills-section .skills-content  {
+  .skills-section .skills-content {
     margin-left: 1.5rem;
     width: 327px;
     height: 352px;
@@ -691,7 +691,7 @@ li.skills {
     margin-left: 2px;
   }
 
-  .skills-section .skills-content .frameworks-list .about-frw{
+  .skills-section .skills-content .frameworks-list .about-frw {
     margin-top: 23px;
     margin-left: -9px;
   }
@@ -701,7 +701,7 @@ li.skills {
     margin-left: 2px;
   }
 
-  .skills-section .skills-content .skills .about-skills{
+  .skills-section .skills-content .skills .about-skills {
     margin-top: 23px;
     margin-left: -9px;
   }
