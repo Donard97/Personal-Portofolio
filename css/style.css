@@ -149,7 +149,6 @@ section .content p {
     margin-left: 45px;
   }
 }
-
 .section-1 .first-header h2 {
   position: static;
   width: 327px;
@@ -177,8 +176,6 @@ section .content p {
   text-align: center;
   margin-left: 45%;
 }
-
-/* Work section */
 
 .work-section .first-project {
   position: static;
@@ -267,7 +264,6 @@ ul.lng-1 li {
 }
 
 li.project-header h3 {
-  margin: 0 !important;
   padding: 0 !important;
   font-style: normal;
   font-weight: 600;
@@ -299,14 +295,11 @@ button.btn-1 {
   bottom: 8px;
   background: #36b37f;
   text-align: center;
-  color: white;
   border-radius: 4px;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   color: #fff;
   flex: none;
@@ -332,7 +325,6 @@ button.btn-1:hover {
   width: 327px;
   height: 232px;
   left: calc(50% - 351px / 2);
-  background: #ffffff;
   border-radius: 8px;
   margin-top: -15rem;
 }
@@ -361,7 +353,7 @@ button.btn-1:hover {
   height: 189px;
   left: 0px;
   top: 72px;
-  font-family: Inter;
+  font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -370,7 +362,6 @@ button.btn-1:hover {
   color: #42526e;
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 24px 0px;
 }
 
@@ -559,12 +550,15 @@ button.btn-1:hover {
 #image-3 {
   margin-left: 4rem;
 }
+
 li.languages {
   margin-right: 2rem;
 }
+
 li.frameworks-list {
   margin-right: 2rem;
 }
+
 li.skills {
   margin-right: 2rem;
 }
