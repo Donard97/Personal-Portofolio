@@ -223,10 +223,6 @@ ul {
   font-size: 30px;
 }
 
-.section-1  .first-project {
-  grid-column: 1;
-}
-
 .project-list {
   padding-inline-start: 6%;
 }
@@ -610,6 +606,7 @@ li.skills {
     margin-left: -4.5rem;
     margin-top: -8rem;
   } 
+
   .section-1 .second-project .project-list {
     margin-top: 55px;
     margin-left: 26px;
@@ -708,5 +705,4 @@ li.skills {
     margin-top: 23px;
     margin-left: -9px;
   }
-
 }
