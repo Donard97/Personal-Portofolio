@@ -150,6 +150,7 @@ section .content p {
   }
 }
 
+
 .section-1 .first-header h2 {
   position: static;
   width: 327px;
@@ -568,3 +569,4 @@ li.frameworks-list {
 li.skills {
   margin-right: 2rem;
 }
+
