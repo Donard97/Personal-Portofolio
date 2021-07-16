@@ -181,7 +181,6 @@ section .content p {
   right: 0.6%;
   top: 0.13%;
   bottom: 83.92%;
- 
 }
 
 .section-1 .first-project .dsc-project .project-header {
@@ -208,7 +207,7 @@ ul {
 
 .section-1 {
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
 }
@@ -568,10 +567,6 @@ li.skills {
 }
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
-  .section-1 .first-header h2 {
-    margin-left: 3rem;
-  }
-
   .section-1 .first-header span {
     margin-left: 48%;
   }
