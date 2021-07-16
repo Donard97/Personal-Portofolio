@@ -159,12 +159,9 @@ section .content p {
   align-items: center;
   text-align: center;
   color: #172b4d;
-  margin-top: 60rem;
+  margin-top: 46rem;
   margin-left: 2.1rem;
   line-height: 52px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .section-1 .first-header span {
@@ -184,9 +181,7 @@ section .content p {
   right: 0.6%;
   top: 0.13%;
   bottom: 83.92%;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ 
 }
 
 .section-1 .first-project .dsc-project .project-header {
@@ -211,16 +206,11 @@ ul {
   list-style: none;
 }
 
-.section-1 > section {
+.section-1 {
   display: grid;
-  grid-gap: 10px;
-  background-color: #2196f3;
-  padding: 10px;
-}
-
-.section-1 > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 .project-list {
@@ -233,13 +223,6 @@ ul.lng-1 {
   align-items: center;
   position: static;
   padding: 8px 12px;
-  left: 0%;
-  right: 66.23%;
-  top: 0%;
-  bottom: 0%;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 ul.lng-1 li {
@@ -313,7 +296,7 @@ button.btn-1:hover {
   height: 232px;
   left: calc(50% - 329px / 2);
   border-radius: 8px;
-  margin-top: -16.9rem;
+  margin-top: -15.8rem;
 }
 
 #dsc-project-1 {
@@ -362,7 +345,7 @@ button.btn-1:hover {
 }
 
 .section-2 .about-me {
-  margin-top: 200rem;
+  margin-top: 193rem;
   text-align: center;
   background-image: url("../images/aboutme.png");
   background-repeat: no-repeat;
@@ -424,7 +407,7 @@ button.btn-1:hover {
 .skills-section {
   display: grid;
   grid-gap: 2rem;
-  margin-top: 236rem;
+  margin-top: 227rem;
   width: 327px;
   height: 352px;
   margin-right: 7%;
@@ -586,7 +569,7 @@ li.skills {
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
   .section-1 .first-header h2 {
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   .section-1 .first-header span {
@@ -614,7 +597,7 @@ li.skills {
 
   #dsc-project-1 {
     margin-left: 0.3rem;
-    margin-top: -16.9rem;
+    margin-top: -15.8rem;
   }
 
   .section-1 .second-project .languages-used {
@@ -629,7 +612,7 @@ li.skills {
 
   #dsc-project-2 {
     margin-left: 0.3rem;
-    margin-top: -16.9rem;
+    margin-top: -15.8rem;
   }
 
   .section-1 .third-project .languages-used {
@@ -649,16 +632,16 @@ li.skills {
 
   #dsc-project-3 {
     margin-left: 0.3rem;
-    margin-top: -16.9rem;
+    margin-top: -15.8rem;
   }
 
   .section-2 .about-me {
-    margin-top: 208rem;
+    margin-top:200rem;
     margin-left: 2rem;
   }
 
   .skills-section {
-    margin-top: 245rem;
+    margin-top: 240rem;
   }
 
   .section-2 .about-me .btn-2 {
@@ -699,5 +682,9 @@ li.skills {
   .skills-section .skills-content .skills .about-skills {
     margin-top: 23px;
     margin-left: -9px;
+  }
+
+  .section-1 .first-header h2 {
+    margin-top: 50rem;
   }
 }
