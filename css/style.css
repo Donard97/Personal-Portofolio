@@ -697,3 +697,40 @@ li.skills {
     color: #172B4D;
     margin: 20px;
 }
+
+#fieldset-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  border: none;
+}
+
+#fieldset-inputs input {
+  width: 327px;
+  height: 42px;
+  padding: 10px;
+  border: 1px solid #D0D9D4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#fieldset-inputs textarea {
+  width: 327px;
+  height: 114px;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#form .form-btn {
+    width: 129px;
+    height: 48px;
+    border-radius: 4px;
+    color: white;
+    background: #36B37F;
+    font-size: 16px;
+    border: 1px solid #36B37F;
+    margin-left: 30%;
+    margin-top: 1rem;
+}
