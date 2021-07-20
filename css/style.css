@@ -688,7 +688,7 @@ li.skills {
   margin-top: 288rem;
 }
 
-.contact-form .contact-header h3 {
+#cf-header {
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -747,7 +747,7 @@ li.skills {
   background: #008552;
 }
 
-.social-media{
+.social-media {
   justify-content: center;
   text-decoration: none;
   list-style: none;
@@ -757,7 +757,7 @@ li.skills {
   margin-left: -2rem;
 }
 
-#my-email{
+#my-email {
   text-align: center;
   color: #42526e;
 }
