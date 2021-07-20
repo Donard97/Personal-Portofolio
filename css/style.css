@@ -746,23 +746,8 @@ li.skills {
   color: white;
   background: #008552;
 }
+
 .social-media{
-  justify-content: center;
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  /* justify-content: space-around; */
-  column-gap: 20px;
-  align-items: center;
-  margin-left: -3rem;
-}
-
-#my-email{
-  text-align: center;
-  color: #42526e;
-}
-
-.social-media {
   justify-content: center;
   text-decoration: none;
   list-style: none;
@@ -772,10 +757,9 @@ li.skills {
   margin-left: -2rem;
 }
 
-#my-email {
+#my-email{
   text-align: center;
   color: #42526e;
-  padding-bottom: 5rem;
 }
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
