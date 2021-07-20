@@ -683,3 +683,17 @@ li.skills {
     margin-top: 50rem;
   }
 }
+
+.contact-form .contact-header {
+  margin-top: 288rem;
+}
+
+.contact-form .contact-header h3 {
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 52px;
+    text-align: center;
+    color: #172B4D;
+    margin: 20px;
+}
