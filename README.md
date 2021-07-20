@@ -11,15 +11,24 @@ CSS
 # LIVE DEMO
 http://127.0.0.1:5500/index.html
 
-# AUTHOR
+# AUTHORS
+
+👤 **Author1**
  
 Donard Golaj <br>
 Github : [Donard97] https://github.com/Donard97 <br>
 Twitter: [donardgolaj] https://twitter.com/donardgolaj <br>
 Linkdn : [donard-golaj] https://www.linkedin.com/in/donard-golaj/ <br>
 
+
+👤 **Author2**
+
+- GitHub: [@ifnotlily](https://github.com/ifnotlily)
+- Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
+- LinkedIn: [lilian-francis](https://linkedin.com/in/lilian-francis)
+
 # 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+Contributions, isses, and feature requests are welcome!
 Feel free to check the issues page.
 
 # Show your support

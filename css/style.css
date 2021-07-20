@@ -689,13 +689,13 @@ li.skills {
 }
 
 .contact-form .contact-header h3 {
-    font-weight: 700;
-    font-size: 40px;
-    font-style: normal;
-    line-height: 52px;
-    text-align: center;
-    color: #172B4D;
-    margin: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 20px;
 }
 
 #fieldset-inputs {
@@ -710,7 +710,7 @@ li.skills {
   width: 327px;
   height: 42px;
   padding: 10px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -718,7 +718,7 @@ li.skills {
 #fieldset-inputs textarea {
   width: 327px;
   height: 114px;
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
   border-radius: 4px;
   box-sizing: border-box;
   padding: 10px;
@@ -731,23 +731,38 @@ li.skills {
 }
 
 #form .form-btn {
-    width: 129px;
-    height: 48px;
-    border-radius: 4px;
-    color: white;
-    background: #36B37F;
-    font-size: 16px;
-    border: 1px solid #36B37F;
-    margin-left: 30%;
-    margin-top: 1rem;
+  width: 129px;
+  height: 48px;
+  border-radius: 4px;
+  color: white;
+  background: #36b37f;
+  font-size: 16px;
+  border: 1px solid #36b37f;
+  margin-left: 34%;
+  margin-top: 1rem;
 }
 
-#form .form-btn:hover{
+#form .form-btn:hover {
   color: white;
   background: #008552;
 }
+.social-media {
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  margin-left: -2rem;
+}
 
-@media screen and (min-width: 376px) and (max-width: 426px) { 
+#my-email {
+  text-align: center;
+  color: #42526e;
+  padding-bottom: 5rem;
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) {
   .contact-form .contact-header {
     margin-top: 305rem;
   }
