@@ -227,7 +227,7 @@
 
     <section class="contact-form">
       <div class="contact-header">
-        <h3>
+        <h3 id="cf-header">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h3>
@@ -236,7 +236,9 @@
         id="form"
         name="simple-contact"
         accept-charset="utf-8"
-        method="post"
+        action="https://formspree.io/f/{form_id}"
+        method="POST"
+        
       >
         <fieldset id="fieldset-inputs">
           <input
@@ -244,21 +246,23 @@
             name="name"
             id="full-name"
             placeholder="Full name"
-            required=""
+            maxlength="30" 
+            required
           />
           <input
             type="email"
             name="email"
             id="email-address"
             placeholder="Email address"
-            required=""
+            required
           />
           <textarea
             rows="5"
             name="message"
             id="message"
             placeholder="Enter text here"
-            required=""
+            maxlength="500"
+            required
           ></textarea>
         </fieldset>
         <input class="form-btn" type="button" value="Get in touch" />
