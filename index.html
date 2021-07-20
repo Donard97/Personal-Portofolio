@@ -229,7 +229,14 @@
       <div class="contact-header">
         <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
       </div>
-
+      <form id="form" name="simple-contact" accept-charset="utf-8" method="post">
+        <fieldset id="fieldset-inputs">
+          <input type="text" name="name" id="full-name" placeholder="Full name" required="">
+          <input type="email" name="email" id="email-address" placeholder="Email address" required="">
+          <textarea rows="5" name="message" id="message" placeholder="Enter text here" required=""></textarea>
+        </fieldset>
+        <input class="form-btn" type="button" value="Get in touch">
+      </form>
     </section>
   </body>
 </html>
