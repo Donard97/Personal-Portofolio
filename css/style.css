@@ -723,6 +723,12 @@ li.skills {
   padding: 10px;
 }
 
+#form {
+  background-image: url(../images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
 #form .form-btn {
     width: 129px;
     height: 48px;
