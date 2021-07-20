@@ -757,6 +757,11 @@ li.skills {
   margin-left: -3rem;
 }
 
+#my-email{
+  text-align: center;
+  color: #42526e;
+}
+
 @media screen and (min-width: 376px) and (max-width: 426px) { 
   .contact-form .contact-header {
     margin-top: 305rem;
