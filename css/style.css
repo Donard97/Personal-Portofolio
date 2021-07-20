@@ -701,6 +701,7 @@ li.skills {
 #fieldset-inputs {
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 18px;
   border: none;
 }
@@ -739,4 +740,15 @@ li.skills {
     border: 1px solid #36B37F;
     margin-left: 30%;
     margin-top: 1rem;
+}
+
+#form .form-btn:hover{
+  color: white;
+  background: #008552;
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) { 
+  .contact-form .contact-header {
+    margin-top: 305rem;
+  }
 }
