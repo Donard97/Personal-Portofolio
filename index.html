@@ -60,39 +60,39 @@
         <h2>My Recent Works</h2>
         <span></span>
       </div>
-        <div class="first-project">
-          <ul class="project-list">
-            <li class="project-image">
-              <img class="p1" src="images/img-work.png" alt="project-image" />
-            </li>
-          </ul>
-          <ul id="dsc-project">
-            <li class="project-header">
-              <h3>Multi Post Stories Gain+Glory</h3>
-            </li>
-            <li class="languages-used">
-              <ul class="lng-1">
-                <li>Ruby on rails</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-              </ul>
-            </li>
-            <li class="btn-project-1">
-              <button class="btn-1" type="button">See Project</button>
-            </li>
-          </ul>
-        </div>
+      <div class="first-project">
+        <ul class="project-list">
+          <li class="project-image">
+            <img class="p1" src="images/img-work.png" alt="project-image" />
+          </li>
+        </ul>
+        <ul id="dsc-project">
+          <li class="project-header">
+            <h3>Multi Post Stories Gain+Glory</h3>
+          </li>
+          <li class="languages-used">
+            <ul class="lng-1">
+              <li>Ruby on rails</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+            </ul>
+          </li>
+          <li class="btn-project-1">
+            <button class="btn-1" type="button">See Project</button>
+          </li>
+        </ul>
+      </div>
       <div class="second-project">
         <ul class="project-list">
           <li class="project-image">
             <img class="p1" src="images/img-work.png" alt="project-image" />
           </li>
-          </ul>
-          <ul id="dsc-project-1">
-            <li class="project-header">
-              <h3>Multi Post Stories Gain+Glory</h3>
-            </li>
+        </ul>
+        <ul id="dsc-project-1">
+          <li class="project-header">
+            <h3>Multi Post Stories Gain+Glory</h3>
+          </li>
           <li class="languages-used">
             <ul class="lng-1">
               <li>Ruby on rails</li>
@@ -224,5 +224,75 @@
         </ul>
       </div>
     </div>
+
+    <section class="contact-form">
+      <div class="contact-header">
+        <h3 id="cf-header">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h3>
+      </div>
+      <form
+        id="form"
+        name="simple-contact"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/mwkanavz"
+        method="POST"
+        
+      >
+        <fieldset id="fieldset-inputs">
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="Full name"
+            maxlength="30" 
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email-address"
+            placeholder="Email address"
+            required
+          />
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+          ></textarea>
+        </fieldset>
+        <input class="form-btn" type="button" value="Get in touch" />
+      </form>
+      <ul class="social-media">
+        <li>
+          <a href="https://twitter.com/donardgolaj"
+            ><img src="images/twitter.png" alt="twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/donard-golaj/"
+            ><img src="images/Linkedin.png" alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/medium.png" alt="medium" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/Donard97"
+            ><img src="images/github.png" alt="github"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/angellist.png" alt="angellist" /></a>
+        </li>
+      </ul>
+
+      <p id="my-email">donardgolaj@gmail.com</p>
+
+    </section>
   </body>
 </html>
