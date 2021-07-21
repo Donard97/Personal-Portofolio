@@ -51,7 +51,7 @@ section {
   width: 100%;
   position: absolute;
   margin-top: 7.2rem;
-  /* background-image: url(../images/background.png); */
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 105%;
@@ -141,20 +141,12 @@ section .content p {
     margin-top: 8rem;
     margin-left: 1.3rem;
   }
-
-  header nav ul {
-    display:none;
-  }
 }
 
 @media only screen and (max-width: 325px) {
   ul {
     margin-top: 50px;
     margin-left: 45px;
-  }
-
-  header nav ul {
-    display:none;
   }
 }
 
@@ -351,38 +343,8 @@ button.btn-1:hover {
   margin-top: -15.8rem;
 }
 
-#dsc-project-4 {
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    background: white;
-    padding: 0;
-    position: relative;
-    width: 327px;
-    height: 232px;
-    left: calc(50% - 329px / 2);
-    border-radius: 8px;
-    margin-top: -15.8rem;
-}
-
-#dsc-project-5 {
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    background: white;
-    padding: 0;
-    position: relative;
-    width: 327px;
-    height: 232px;
-    left: calc(50% - 329px / 2);
-    border-radius: 8px;
-    margin-top: -15.8rem;
-}
-
 .section-2 .about-me {
-  margin-top: 248rem;
+  margin-top: 193rem;
   text-align: center;
   background-image: url("../images/aboutme.png");
   background-repeat: no-repeat;
@@ -444,7 +406,7 @@ button.btn-1:hover {
 .skills-section {
   display: grid;
   grid-gap: 2rem;
-  margin-top: 281rem;
+  margin-top: 227rem;
   width: 327px;
   height: 352px;
   margin-right: 7%;
@@ -605,10 +567,6 @@ li.skills {
 }
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
-  header nav ul {
-    display:none;
-  }
-
   .section-1 .first-header span {
     margin-left: 48%;
   }
@@ -672,43 +630,13 @@ li.skills {
     margin-top: -15.8rem;
   }
 
-  .section-1 .fifth-project .languages-used {
-    margin-left: -4.5rem;
-    margin-top: -8rem;
-  }
-
-  .section-1 .fifth-project .project-list {
-    margin-top: 55px;
-    margin-left: 26px;
-  }
-
-  #dsc-project-4 {
-    margin-left: 0.3rem;
-    margin-top: -15.8rem;
-  }
-
-  .section-1 .sixth-project .languages-used {
-    margin-left: -4.5rem;
-    margin-top: -8rem;
-  }
-
-  .section-1 .sixth-project .project-list {
-    margin-top: 55px;
-    margin-left: 26px;
-  }
-
-  #dsc-project-5 {
-    margin-left: 0.3rem;
-    margin-top: -15.8rem;
-  }
-
   .section-2 .about-me {
-    margin-top: 270rem;
+    margin-top: 200rem;
     margin-left: 2rem;
   }
 
   .skills-section {
-    margin-top: 306rem;
+    margin-top: 240rem;
   }
 
   .section-2 .about-me .btn-2 {
@@ -757,7 +685,7 @@ li.skills {
 }
 
 .contact-form .contact-header {
-  margin-top: 345rem;
+  margin-top: 288rem;
 }
 
 #cf-header {
@@ -835,170 +763,7 @@ li.skills {
 }
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
-  header nav ul {
-    display:none;
-  }
-  
   .contact-form .contact-header {
-    margin-top: 372rem;
+    margin-top: 305rem;
   }
-}
-
-@media screen and (min-width: 426px) and (max-width: 769px) {
-   
-  header nav ul {
-    display:none;
-  }
-
-  .first-content .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 14rem;
-  }
-
-  .first-content .content h1 {
-    width: 100%;
-    z-index: 999;
-  }
-
-  .first-content .content p {
-    width: 90%;
-    margin-top: -6rem;
-  }
-
-  .first-content .content-list {
-    display: flex;
-    justify-content: center;
-    margin-top: -4rem;
-    margin-left: -4rem;
-  }
-
-  #btn {
-    margin-left: -2rem ;
-  }
-
-  .section-1 .first-header h2 {
-    margin-left: 13rem;
-  }
- 
-  #dsc-project {
-    margin-left: -172px;
-  }
-
-  .section-1 .second-project {
-    margin-top: -32rem;
-    margin-left: 24rem;
-  }
-
-  #dsc-project-1 {
-    margin-left: -3.5px;
-  }
-
-  #dsc-project-2 {
-    margin-left: -172px;
-  }
-
-  .section-1 .fourth-project {
-    margin-top: -32rem;
-    margin-left: 24rem;
-  }
-
-  #dsc-project-3 {
-    margin-left: -3.5px;
-  }
-
-  #dsc-project-4 {
-    margin-left: -172px;
-  }
-
-  .section-1 .sixth-project {
-    margin-top: -32rem;
-    margin-left: 24rem;
-  }
-
-  #dsc-project-5 {
-    margin-left: -3.5px;
-  }
-
-  .section-2 .about-me {
-    margin-top: 155rem;
-  }
-
-  .section-2 .about-me h2 {
-    width: 100%;
-  }
-
-  .section-2 .about-me p {
-    width: 94%;
-    margin-left: 2rem;
-  }
-
-  .section-2 .about-me .btn-2 {
-    margin-top: -1rem;
-  }
-
-  .skills-section {
-    margin-top: 185rem;
-    margin-left: 10rem;
-  }
-
-  .contact-form .contact-header {
-    margin-top: 246rem;
-  }
-
-  #form .form-btn {
-    margin-left: 42%;
-  }
-}
-
-@media (max-width: 1000px) {
-  nav ul {
-    display: none;
-  }
-  .first-content {
-  background-image: url(../images/background.png);
-  }
-}
-
-
-@media screen and (min-width: 769px) and (max-width: 1025px) { 
-  nav h3{
-    display: none;
-  }
-
-  nav img {
-    display: none;
-  }
-
-  nav ul {
-    display: flex;
-    color: #172B4D;
-    font-weight: 600;
-    margin-left: 20rem;
-  }
-
-  nav ul li {
-    padding: 20px;
-    cursor: pointer;
-  }
-
-  .first-content {
-    background-image: url('../images/destkopbackground.png');
-    margin-top: 0;
-    height: 110%;
-  }
-
-  section .content h1 {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 142px;
-  }
-  section .content p {
-    width: 66%;
-    text-align: cetner;
-    margin-left: 9rem;
-    margin-top: -7rem;
-  }
-  
 }
