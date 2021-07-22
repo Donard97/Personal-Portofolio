@@ -955,7 +955,6 @@ li.skills {
   }
 }
 
-
 @media (max-width: 1000px) {
   nav ul {
     display: none;
@@ -972,7 +971,6 @@ li.skills {
   #hr {
     display: none;
   }
-
 }
 
 @media (min-width: 1001px) {
@@ -983,7 +981,6 @@ li.skills {
   #my-email {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 1025px) {
@@ -1105,7 +1102,7 @@ li.skills {
 
   #cf-header {
     width: 350px;
-    height: 228px;
+    height: 30px;
     font-size: 20px;
     margin-left: 4rem;
     line-height: 34px;
@@ -1113,15 +1110,14 @@ li.skills {
 
   #fieldset-inputs {
     float: right;
-    margin-top: -17rem;
+    margin-top: -7rem;
     margin-right: 4rem;
   }
-
 
   #fieldset-inputs input {
     width: 249px;
   }
-  
+
   input#email-address {
     width: 500px;
   }
@@ -1130,21 +1126,23 @@ li.skills {
     width: 500px;
   }
 
-
   #form {
-    background-image: url('../images/form-design.png');
+    background-image: url("../images/form-design.png");
     background-size: cover;
     background-position: bottom;
-    height: 37%;
-}
-
+    height: 55%;
+    width: 100%;
+  }
 
   #form .form-btn {
     margin-left: 43.5%;
-    margin-top: -1rem;
     margin-bottom: 8rem;
     width: 135px;
     height: 36px;
+  }
+
+  .contact-form .social-media {
+    padding-bottom: 15px;
   }
 }
 
@@ -1238,7 +1236,7 @@ li.skills {
   }
 
   #dsc-project-4 {
-    margin-left: 17px;
+    margin-left: 9px;
   }
 
   #dsc-project-5 {
@@ -1265,56 +1263,57 @@ li.skills {
     margin-top: 180rem;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    width: 98%;
-    column-gap: 5px;
-    margin-left: -4rem;
+    width: 70%;
+    column-gap: 15px;
+    margin-left: 6rem;
   }
 
   .contact-form .contact-header {
-    margin-top: 210rem;
+    margin-top: 207rem;
   }
 
   #cf-header {
-    width: 350px;
-    height: 228px;
-    font-size: 20px;
-    margin-left: 4rem;
-    line-height: 34px;
+    height: 105px;
+    font-size: 30px;
+    margin-left: 10rem;
+    line-height: 52px;
+    width: 33%;
   }
 
   #fieldset-inputs {
     float: right;
-    margin-top: -17rem;
-    margin-right: 4rem;
+    margin-top: -9rem;
+    margin-right: 10rem;
+    position: relative;
   }
-
 
   #fieldset-inputs input {
-    width: 249px;
+    width: 300px;
   }
-  
+
   input#email-address {
-    width: 500px;
+    width: 600px;
   }
 
   #fieldset-inputs textarea {
-    width: 500px;
+    width: 600px;
   }
 
-
   #form {
-    background-image: url('../images/form-design.png');
+    background-image: url("../images/form-design.png");
     background-size: cover;
     background-position: bottom;
-    height: 37%;
-}
-
+    height: 70%;
+  }
 
   #form .form-btn {
-    margin-left: 43.5%;
-    margin-top: -1rem;
+    margin-left: 46%;
     margin-bottom: 8rem;
     width: 135px;
     height: 36px;
+  }
+
+  .contact-form .social-media {
+    padding-bottom: 15px;
   }
 }
