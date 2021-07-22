@@ -51,7 +51,6 @@ section {
   width: 100%;
   position: absolute;
   margin-top: 7.2rem;
-  /* background-image: url(../images/background.png); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 105%;
@@ -931,6 +930,7 @@ li.skills {
   .section-2 .about-me p {
     width: 94%;
     margin-left: 2rem;
+    background-image: url("../images/aboutme.png");
   }
 
   .section-2 .about-me .btn-2 {
@@ -950,9 +950,6 @@ li.skills {
     margin-left: 42%;
   }
 
-  .section-2 .about-me {
-    background-image: url("../images/aboutme.png");
-  }
 }
 
 @media (max-width: 1000px) {
@@ -1014,6 +1011,7 @@ li.skills {
     margin-left: 0;
     margin-top: 118px;
   }
+
   section .content p {
     width: 66%;
     text-align: center;
@@ -1044,6 +1042,7 @@ li.skills {
     grid-template-columns: 33% 33% 33%;
     margin-left: -15px;
   }
+
   .section-1 .first-project {
     grid-column-start: 1;
   }
@@ -1178,6 +1177,7 @@ li.skills {
     margin-top: 239px;
     font-size: 48px;
   }
+
   section .content p {
     width: 54%;
     text-align: center;
@@ -1215,6 +1215,7 @@ li.skills {
     margin-left: -15px;
     width: 75%;
   }
+  
   .section-1 .first-project {
     grid-column-start: 1;
   }
