@@ -9,7 +9,7 @@ HTML
 CSS
 
 # LIVE DEMO
-http://127.0.0.1:5500/index.html
+https://donard97.github.io/Personal-Portofolio/
 
 # AUTHORS
 
@@ -35,8 +35,9 @@ Feel free to check the issues page.
 Give a ⭐️ if you like this project!
 
 # Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
+
+ hanks to Microverse to made it
+ My learning and coding partners
 
 # 📝 License
 This project is MIT licensed.

@@ -51,7 +51,6 @@ section {
   width: 100%;
   position: absolute;
   margin-top: 7.2rem;
-  /* background-image: url(../images/background.png); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 105%;
@@ -143,7 +142,7 @@ section .content p {
   }
 
   header nav ul {
-    display:none;
+    display: none;
   }
 }
 
@@ -154,7 +153,7 @@ section .content p {
   }
 
   header nav ul {
-    display:none;
+    display: none;
   }
 }
 
@@ -353,32 +352,32 @@ button.btn-1:hover {
 
 #dsc-project-4 {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    background: white;
-    padding: 0;
-    position: relative;
-    width: 327px;
-    height: 232px;
-    left: calc(50% - 329px / 2);
-    border-radius: 8px;
-    margin-top: -15.8rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: white;
+  padding: 0;
+  position: relative;
+  width: 327px;
+  height: 232px;
+  left: calc(50% - 329px / 2);
+  border-radius: 8px;
+  margin-top: -15.8rem;
 }
 
 #dsc-project-5 {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    background: white;
-    padding: 0;
-    position: relative;
-    width: 327px;
-    height: 232px;
-    left: calc(50% - 329px / 2);
-    border-radius: 8px;
-    margin-top: -15.8rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: white;
+  padding: 0;
+  position: relative;
+  width: 327px;
+  height: 232px;
+  left: calc(50% - 329px / 2);
+  border-radius: 8px;
+  margin-top: -15.8rem;
 }
 
 .section-2 .about-me {
@@ -606,7 +605,7 @@ li.skills {
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
   header nav ul {
-    display:none;
+    display: none;
   }
 
   .section-1 .first-header span {
@@ -836,18 +835,17 @@ li.skills {
 
 @media screen and (min-width: 376px) and (max-width: 426px) {
   header nav ul {
-    display:none;
+    display: none;
   }
-  
+
   .contact-form .contact-header {
     margin-top: 372rem;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 769px) {
-   
   header nav ul {
-    display:none;
+    display: none;
   }
 
   .first-content .content {
@@ -875,13 +873,13 @@ li.skills {
   }
 
   #btn {
-    margin-left: -2rem ;
+    margin-left: -2rem;
   }
 
   .section-1 .first-header h2 {
     margin-left: 13rem;
   }
- 
+
   #dsc-project {
     margin-left: -172px;
   }
@@ -932,6 +930,7 @@ li.skills {
   .section-2 .about-me p {
     width: 94%;
     margin-left: 2rem;
+    background-image: url("../images/aboutme.png");
   }
 
   .section-2 .about-me .btn-2 {
@@ -956,14 +955,32 @@ li.skills {
   nav ul {
     display: none;
   }
+
   .first-content {
-  background-image: url(../images/background.png);
+    background-image: url(../images/background.png);
+  }
+
+  .lname {
+    display: none;
+  }
+
+  #hr {
+    display: none;
   }
 }
 
+@media (min-width: 1001px) {
+  .first-content {
+    background-image: url("../images/destkopbackground.png");
+  }
 
-@media screen and (min-width: 769px) and (max-width: 1025px) { 
-  nav h3{
+  #my-email {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  nav h3 {
     display: none;
   }
 
@@ -973,7 +990,7 @@ li.skills {
 
   nav ul {
     display: flex;
-    color: #172B4D;
+    color: #172b4d;
     font-weight: 600;
     margin-left: 20rem;
   }
@@ -984,7 +1001,6 @@ li.skills {
   }
 
   .first-content {
-    background-image: url('../images/destkopbackground.png');
     margin-top: 0;
     height: 110%;
   }
@@ -992,13 +1008,312 @@ li.skills {
   section .content h1 {
     width: 100%;
     margin-left: 0;
-    margin-top: 142px;
+    margin-top: 118px;
   }
+
   section .content p {
     width: 66%;
-    text-align: cetner;
+    text-align: center;
     margin-left: 9rem;
     margin-top: -7rem;
   }
-  
+
+  .first-content .content-list {
+    margin-left: 24rem;
+    position: absolute;
+    margin-top: -4rem;
+  }
+
+  #btn {
+    margin-top: -20rem;
+  }
+
+  .section-1 .first-header h2 {
+    margin-left: 22rem;
+  }
+
+  .section-1 .first-header span {
+    display: none;
+  }
+
+  .section-1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: -15px;
+  }
+
+  .section-1 .first-project {
+    grid-column-start: 1;
+  }
+
+  #dsc-project {
+    margin-left: 17px;
+  }
+
+  #dsc-project-1 {
+    margin-left: 17px;
+  }
+
+  #dsc-project-2 {
+    margin-left: 17px;
+  }
+
+  #dsc-project-3 {
+    margin-left: 17px;
+  }
+
+  #dsc-project-4 {
+    margin-left: 17px;
+  }
+
+  #dsc-project-5 {
+    margin-left: 17px;
+  }
+
+  .section-2 .about-me {
+    margin-top: 123rem;
+    background-image: url("../images/aboutme-design.png");
+  }
+
+  .section-2 .about-me h2 {
+    width: 100%;
+  }
+
+  .section-2 .about-me p {
+    width: 63%;
+    margin-left: 12rem;
+    height: 82px;
+  }
+
+  .skills-section {
+    margin-top: 151rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 98%;
+    column-gap: 5px;
+    margin-left: -4rem;
+  }
+
+  .contact-form .contact-header {
+    margin-top: 175rem;
+  }
+
+  #cf-header {
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 4rem;
+    line-height: 34px;
+  }
+
+  #fieldset-inputs {
+    float: right;
+    margin-top: -7rem;
+    margin-right: 4rem;
+  }
+
+  #fieldset-inputs input {
+    width: 249px;
+  }
+
+  input#email-address {
+    width: 500px;
+  }
+
+  #fieldset-inputs textarea {
+    width: 500px;
+  }
+
+  #form {
+    background-image: url("../images/form-design.png");
+    background-size: cover;
+    background-position: bottom;
+    height: 55%;
+    width: 100%;
+  }
+
+  #form .form-btn {
+    margin-left: 43.5%;
+    margin-bottom: 8rem;
+    width: 135px;
+    height: 36px;
+  }
+
+  .contact-form .social-media {
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  nav h3 {
+    display: none;
+  }
+
+  nav img {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    color: #172b4d;
+    font-weight: 600;
+    margin-left: 33rem;
+  }
+
+  nav ul li {
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .first-content {
+    margin-top: 0;
+    height: 170%;
+  }
+
+  section .content h1 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 239px;
+    font-size: 48px;
+  }
+
+  section .content p {
+    width: 54%;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: -6rem;
+    z-index: 999;
+  }
+
+  .first-content .content-list {
+    margin-left: 37rem;
+    position: absolute;
+    margin-top: -4rem;
+  }
+
+  #btn {
+    margin-top: -9rem;
+  }
+
+  section.section-1 {
+    margin-top: 25rem;
+  }
+
+  .section-1 .first-header h2 {
+    margin-left: 23.5rem;
+    width: 100%;
+  }
+
+  .section-1 .first-header span {
+    display: none;
+  }
+
+  .section-1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: -15px;
+    width: 75%;
+  }
+
+  .section-1 .first-project {
+    grid-column-start: 1;
+  }
+
+  #dsc-project {
+    margin-left: 9px;
+  }
+
+  #dsc-project-1 {
+    margin-left: 9px;
+  }
+
+  #dsc-project-2 {
+    margin-left: 9px;
+  }
+
+  #dsc-project-3 {
+    margin-left: 9px;
+  }
+
+  #dsc-project-4 {
+    margin-left: 9px;
+  }
+
+  #dsc-project-5 {
+    margin-left: 9px;
+  }
+
+  .section-2 .about-me {
+    margin-top: 145rem;
+    background-image: url("../images/aboutme-design.png");
+  }
+
+  .section-2 .about-me h2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-2 .about-me p {
+    width: 54%;
+    margin-left: 21rem;
+    height: 100%;
+  }
+
+  .skills-section {
+    margin-top: 180rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 70%;
+    column-gap: 15px;
+    margin-left: 6rem;
+  }
+
+  .contact-form .contact-header {
+    margin-top: 207rem;
+  }
+
+  #cf-header {
+    height: 105px;
+    font-size: 30px;
+    margin-left: 10rem;
+    line-height: 52px;
+    width: 33%;
+  }
+
+  #fieldset-inputs {
+    float: right;
+    margin-top: -9rem;
+    margin-right: 10rem;
+    position: relative;
+  }
+
+  #fieldset-inputs input {
+    width: 300px;
+  }
+
+  input#email-address {
+    width: 600px;
+  }
+
+  #fieldset-inputs textarea {
+    width: 600px;
+  }
+
+  #form {
+    background-image: url("../images/form-design.png");
+    background-size: cover;
+    background-position: bottom;
+    height: 70%;
+  }
+
+  #form .form-btn {
+    margin-left: 46%;
+    margin-bottom: 8rem;
+    width: 135px;
+    height: 36px;
+  }
+
+  .contact-form .social-media {
+    padding-bottom: 15px;
+  }
 }
