@@ -68,6 +68,19 @@ section .content h1 {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  animation-name: slide-left;
+  animation-duration: 3s;
+}
+
+@keyframes slideheader {
+  from {
+    font-size: 15px;
+    opacity: 0;
+  }
+
+  to {
+    font-size: 30px;
+  }
 }
 
 section .content h1 span {
@@ -87,6 +100,21 @@ section .content p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-left: 24px;
+  animation-name: slide;
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0%;
+    font-size: 25px;
+    opacity: 0;
+  }
+
+  to {
+    font-size: 20px;
+    color: #172b4d;
+  }
 }
 
 .content-list {
@@ -169,6 +197,18 @@ section .content p {
   margin-top: 46rem;
   margin-left: 2.1rem;
   line-height: 52px;
+  animation-name: slide-heading;
+  animation-duration: 3s;
+}
+
+@keyframes slide-heading {
+  from {
+    font-size: 20px;
+  }
+
+  to {
+    font-size: 40px;
+  }
 }
 
 .section-1 .first-header span {
@@ -283,11 +323,17 @@ button.btn-1 {
   letter-spacing: 0.03em;
   color: #fff;
   cursor: pointer;
+  transition: width 2s;
 }
 
 button.btn-1:hover {
   color: white;
   background: #008552;
+  width: 140px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #dsc-project {
@@ -396,6 +442,18 @@ button.btn-1:hover {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  animation-name: slide-heading;
+  animation-duration: 3s;
+}
+
+@keyframes slide-heading {
+  from {
+    font-size: 20px;
+  }
+
+  to {
+    font-size: 40px;
+  }
 }
 
 .section-2 .about-me p {
@@ -410,6 +468,21 @@ button.btn-1:hover {
   text-align: center;
   color: #42526e;
   margin: 24px 0;
+  animation-name: slide;
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0%;
+    font-size: 25px;
+    opacity: 0;
+  }
+
+  to {
+    font-size: 20px;
+    color: #172b4d;
+  }
 }
 
 .section-2 .about-me .btn-2 {
@@ -433,11 +506,14 @@ button.btn-1:hover {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  transition: width 2s;
 }
 
 .section-2 .about-me .btn-2:hover {
   color: white;
   background: #008552;
+  width: 170px;
+  border-radius: 50%;
 }
 
 .skills-section {
@@ -767,6 +843,19 @@ li.skills {
   text-align: center;
   color: #172b4d;
   margin: 20px;
+  animation-name: slideheader;
+  animation-duration: 5s;
+}
+
+@keyframes slideheader {
+  from {
+    font-size: 15px;
+    opacity: 0;
+  }
+
+  to {
+    font-size: 30px;
+  }
 }
 
 #fieldset-inputs {
@@ -811,11 +900,14 @@ li.skills {
   border: 1px solid #36b37f;
   margin-left: 34%;
   margin-top: 1rem;
+  transition: width 2s;
 }
 
 #form .form-btn:hover {
   color: white;
   background: #008552;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .social-media {
@@ -1104,6 +1196,7 @@ li.skills {
     font-size: 20px;
     margin-left: 4rem;
     line-height: 34px;
+    animation-name: slideheader;
   }
 
   #fieldset-inputs {
