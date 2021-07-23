@@ -321,11 +321,17 @@ button.btn-1 {
   letter-spacing: 0.03em;
   color: #fff;
   cursor: pointer;
+  transition: width 2s;
 }
 
 button.btn-1:hover {
   color: white;
   background: #008552;
+  width: 140px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #dsc-project {
@@ -497,11 +503,15 @@ button.btn-1:hover {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  transition: width 2s;
 }
 
 .section-2 .about-me .btn-2:hover {
   color: white;
   background: #008552;
+  width: 170px;
+  border-radius: 50%;
+
 }
 
 .skills-section {
@@ -875,11 +885,14 @@ li.skills {
   border: 1px solid #36b37f;
   margin-left: 34%;
   margin-top: 1rem;
+  transition: width 2s;
 }
 
 #form .form-btn:hover {
   color: white;
   background: #008552;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .social-media {
