@@ -68,6 +68,17 @@ section .content h1 {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  animation-name: slide-left;
+  animation-duration: 3s;
+}
+
+@keyframes slide-left {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 50px;
+  }
 }
 
 section .content h1 span {
@@ -87,6 +98,21 @@ section .content p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-left: 24px;
+  animation-name: slide;
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0%;
+    font-size: 25px;
+    opacity: 0;
+  }
+
+  to {
+    font-size: 20px;
+    color: #172b4d
+  }
 }
 
 .content-list {
@@ -169,7 +195,19 @@ section .content p {
   margin-top: 46rem;
   margin-left: 2.1rem;
   line-height: 52px;
+  animation-name: slide-heading;
+  animation-duration: 3s;
 }
+
+@keyframes slide-heading {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
+
 
 .section-1 .first-header span {
   display: flex;
@@ -396,6 +434,17 @@ button.btn-1:hover {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  animation-name: slide-heading;
+  animation-duration: 3s;
+}
+
+@keyframes slide-heading {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
 }
 
 .section-2 .about-me p {
@@ -410,6 +459,21 @@ button.btn-1:hover {
   text-align: center;
   color: #42526e;
   margin: 24px 0;
+  animation-name: slide;
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0%;
+    font-size: 25px;
+    opacity: 0;
+  }
+
+  to {
+    font-size: 20px;
+    color: #172b4d
+  }
 }
 
 .section-2 .about-me .btn-2 {
