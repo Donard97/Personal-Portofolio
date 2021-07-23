@@ -72,14 +72,16 @@ section .content h1 {
   animation-duration: 3s;
 }
 
-@keyframes slide-left {
+@keyframes slideheader {
   from {
-    font-size: 20px;
+    font-size:15px;
+    opacity: 0;
   }
   to {
-    font-size: 50px;
+    font-size:30px
   }
 }
+
 
 section .content h1 span {
   color: #36b37e;
@@ -841,6 +843,9 @@ li.skills {
   text-align: center;
   color: #172b4d;
   margin: 20px;
+  animation-name: slideheader;
+  animation-duration: 1s;
+
 }
 
 #fieldset-inputs {
