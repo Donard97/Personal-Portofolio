@@ -1181,6 +1181,7 @@ li.skills {
     font-size: 20px;
     margin-left: 4rem;
     line-height: 34px;
+    animation-name: slideheader;
   }
 
   #fieldset-inputs {
