@@ -74,14 +74,13 @@ section .content h1 {
 
 @keyframes slideheader {
   from {
-    font-size:15px;
+    font-size: 15px;
     opacity: 0;
   }
   to {
-    font-size:30px
+    font-size: 30px;
   }
 }
-
 
 section .content h1 span {
   color: #36b37e;
@@ -113,7 +112,7 @@ section .content p {
 
   to {
     font-size: 20px;
-    color: #172b4d
+    color: #172b4d;
   }
 }
 
@@ -209,7 +208,6 @@ section .content p {
     font-size: 40px;
   }
 }
-
 
 .section-1 .first-header span {
   display: flex;
@@ -480,7 +478,7 @@ button.btn-1:hover {
 
   to {
     font-size: 20px;
-    color: #172b4d
+    color: #172b4d;
   }
 }
 
@@ -513,7 +511,6 @@ button.btn-1:hover {
   background: #008552;
   width: 170px;
   border-radius: 50%;
-
 }
 
 .skills-section {
@@ -844,8 +841,17 @@ li.skills {
   color: #172b4d;
   margin: 20px;
   animation-name: slideheader;
-  animation-duration: 1s;
+  animation-duration: 5s;
+}
 
+@keyframes slideheader {
+  from {
+    font-size: 15px;
+    opacity: 0;
+  }
+  to {
+    font-size: 30px;
+  }
 }
 
 #fieldset-inputs {
