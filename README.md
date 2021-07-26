@@ -9,7 +9,7 @@ HTML
 CSS
 
 # LIVE DEMO
-https://donard97.github.io/Personal-Portofolio/
+ https://donard97.github.io/Personal-Portofolio/
 
 # AUTHORS
 
