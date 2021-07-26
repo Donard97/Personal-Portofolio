@@ -1338,15 +1338,7 @@ li.skills {
   #btn {
     margin-left: 50px;
   }
-
-  section.section-1 {
-    margin-top: 35rem;
-  }
-  
-  .section-1 .first-header h2 {
-    margin-left: 5rem;
-  }
-
+    
   .section-1 .first-header h2 {
     margin-left: 25rem;
   }
@@ -1356,35 +1348,35 @@ li.skills {
   }
 
   #dsc-project {
-    margin-left: 4px;
+    margin-left: 0;
   }
 
   #dsc-project-1 {
-    margin-left: 4px;
+    margin-left: 0;
   }
 
   #dsc-project-2 {
-    margin-left: 4px;
+    margin-left: 0;
   }
 
   #dsc-project-3 {
-    margin-left: 4px;
+    margin-left: 0;
   }
 
   #dsc-project-4 {
-    margin-left: 4px;
+    margin-left: 0;
   }
 
   #dsc-project-5 {
-    margin-left: 04px;
+    margin-left: 0;
   }
 
   .section-2 .about-me {
-    margin-top: 152rem;
+    margin-top: 145rem;
   }
 
   .skills-section {
-    margin-top: 185rem;
+    margin-top: 180rem;
     margin-left: 8rem;
   }
 
