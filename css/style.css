@@ -1341,9 +1341,10 @@ li.skills {
 
   section.section-1 {
     margin-top: 35rem;
-}
-  .section-1 .first-header h2  {
-  margin-left: 5rem;
+  }
+  
+  .section-1 .first-header h2 {
+    margin-left: 5rem;
   }
 
   .section-1 .first-header h2 {
@@ -1360,38 +1361,38 @@ li.skills {
 
   #dsc-project-1 {
     margin-left: 4px;
- }
+  }
 
- #dsc-project-2 {
-  margin-left: 4px;
-}
+  #dsc-project-2 {
+    margin-left: 4px;
+  }
+
   #dsc-project-3 {
-  margin-left: 4px;
-}
+    margin-left: 4px;
+  }
 
-#dsc-project-4 {
-  margin-left: 4px;
-}
+  #dsc-project-4 {
+    margin-left: 4px;
+  }
 
-#dsc-project-5 {
-  margin-left: 04px;
-}
+  #dsc-project-5 {
+    margin-left: 04px;
+  }
 
-.section-2 .about-me {
-  margin-top: 152rem;
-}
+  .section-2 .about-me {
+    margin-top: 152rem;
+  }
 
-.skills-section {
-  margin-top: 185rem;
-  margin-left: 8rem;
-}
+  .skills-section {
+    margin-top: 185rem;
+    margin-left: 8rem;
+  }
 
-.contact-form .contact-header {
-  margin-top: 210rem;
-}
+  .contact-form .contact-header {
+    margin-top: 210rem;
+  }
 
-#form .form-btn {
-  margin-left: 49%;
-}
-
+  #form .form-btn {
+    margin-left: 49%;
+  }
 }
