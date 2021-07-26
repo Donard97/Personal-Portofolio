@@ -1410,3 +1410,74 @@ li.skills {
     padding-bottom: 15px;
   }
 }
+
+@media screen and (min-width: 1441px) {
+  nav ul {
+    margin-left: 38em;
+  }
+
+  .first-content .content h1 {
+    margin-left: 3rem;
+  }
+
+  .first-content .content p {
+    margin-left: 24rem;
+  }
+
+  .first-content .content-list {
+    margin-left: 41rem;
+  }
+
+  #btn {
+    margin-left: 50px;
+  }
+
+  .section-1 .first-header h2 {
+    margin-left: 25rem;
+  }
+
+  section.section-1 {
+    margin-left: 1rem;
+  }
+
+  #dsc-project {
+    margin-left: 0;
+  }
+
+  #dsc-project-1 {
+    margin-left: 0;
+  }
+
+  #dsc-project-2 {
+    margin-left: 0;
+  }
+
+  #dsc-project-3 {
+    margin-left: 0;
+  }
+
+  #dsc-project-4 {
+    margin-left: 0;
+  }
+
+  #dsc-project-5 {
+    margin-left: 0;
+  }
+
+  .section-2 .about-me {
+    margin-top: 145rem;
+  }
+
+  .skills-section {
+    margin-top: 180rem;
+    margin-left: 8rem;
+  }
+
+  .contact-form .contact-header {
+    margin-top: 210rem;
+  }
+
+  #form .form-btn {
+    margin-left: 49%;
+  }
+}
