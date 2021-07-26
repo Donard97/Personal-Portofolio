@@ -1319,7 +1319,6 @@ li.skills {
 }
 
 @media screen and (min-width: 1441px) {
-  
   nav ul {
     margin-left: 38em;
   }
@@ -1388,5 +1387,4 @@ li.skills {
   #form .form-btn {
     margin-left: 49%;
   }
-
 }
