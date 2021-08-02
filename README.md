@@ -23,9 +23,16 @@ Linkdn : [donard-golaj] https://www.linkedin.com/in/donard-golaj/ <br>
 
 👤 **Lilian Francis**
 
-- GitHub: [@ifnotlily](https://github.com/ifnotlily)
-- Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
-- LinkedIn: [lilian-francis](https://linkedin.com/in/lilian-francis)
+ GitHub: [@ifnotlily](https://github.com/ifnotlily)
+ Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
+ LinkedIn: [lilian-francis](https://linkedin.com/in/lilian-francis) <br>
+
+👤 **Kossi Stack**
+ 
+- GitHub: [@Kossi-stack](https://github.com/Kossi-stack)
+- LinkedIn: [@kossifioklou2406](https://www.linkedin.com/in/kossifioklou2406/)
+
+
 
 # 🤝 Contributing
 Contributions, isses, and feature requests are welcome!
