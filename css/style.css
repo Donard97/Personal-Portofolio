@@ -92,16 +92,23 @@ header nav h3 a {
   margin-top: 60px;
 }
 
-.mobile-nav a {
+.mobile-nav ul  {
   display: block;
-  padding: 12px 20px;
   width: 100%;
-  color: #3a4a42;
   font-size: 32px;
-  text-decoration: none;
   line-height: 44px;
   font-weight: 600;
   transition: 0.4s;
+  margin: 0;
+}
+
+.mobile-nav ul li {
+  padding:10px 0;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: #3a4a42;;
 }
 
 .mobile-nav.is-active {
