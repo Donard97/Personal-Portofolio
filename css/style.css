@@ -110,7 +110,12 @@ header nav h3 a {
   margin-top: 60px;
 }
 
-.mobile-nav ul  {
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.mobile-nav ul {
   display: block;
   width: 100%;
   font-size: 32px;
@@ -120,8 +125,17 @@ header nav h3 a {
   margin: 0;
 }
 
+.content-list li {
+  list-style-type: none;
+}
+
 .mobile-nav ul li {
   padding: 10px 0;
+}
+
+.content-list li a {
+  padding: 9px;
+  list-style: none;
 }
 
 .mobile-nav ul li a {
@@ -220,15 +234,6 @@ section .content p {
   flex-direction: row;
   margin-top: 50px;
   margin-left: 62px;
-}
-
-.content-list li {
-  list-style-type: none;
-}
-
-.content-list li a {
-  padding: 9px;
-  list-style: none;
 }
 
 .content-list li a img {
@@ -342,11 +347,6 @@ section .content p {
   align-items: center;
   text-align: center;
   color: #3a4a42;
-}
-
-ul {
-  text-decoration: none;
-  list-style: none;
 }
 
 .section-1 {
