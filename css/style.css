@@ -57,8 +57,26 @@ header nav h3 a {
   z-index: 99;
 }
 
-.hamburger .bar,
-.hamburger::after,
+.hamburger .bar {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #28352f;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #28352f;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
 .hamburger::before {
   width: 100%;
   content: "";
@@ -103,12 +121,12 @@ header nav h3 a {
 }
 
 .mobile-nav ul li {
-  padding:10px 0;
+  padding: 10px 0;
 }
 
 .mobile-nav ul li a {
   text-decoration: none;
-  color: #3a4a42;;
+  color: #3a4a42;
 }
 
 .mobile-nav.is-active {
