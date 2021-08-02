@@ -57,10 +57,11 @@ header nav h3 a {
   z-index: 99;
 }
 
-
- .hamburger .bar, .hamburger::after, .hamburger::before  {
+.hamburger .bar,
+.hamburger::after,
+.hamburger::before {
   width: 100%;
-  content: '';
+  content: "";
   display: block;
   height: 2px;
   background-color: #28352f;
@@ -68,11 +69,11 @@ header nav h3 a {
   transition: 0.4s;
 }
 
-.hamburger.is-active::before{
+.hamburger.is-active::before {
   transform: rotate(-45deg) translate(-6px, 2px);
 }
 
-.hamburger.is-active::after{
+.hamburger.is-active::after {
   transform: rotate(45deg) translate(-10px, -6px);
 }
 
@@ -86,8 +87,8 @@ header nav h3 a {
   top: 0;
   left: 100%;
   min-height: 100vh;
-  z-index:98;
-  background-color:#FFFFFF;
+  z-index: 98;
+  background-color: #ffffff;
   margin-top: 60px;
 }
 
@@ -95,7 +96,7 @@ header nav h3 a {
   display: block;
   padding: 12px 20px;
   width: 100%;
-  color: #3A4A42;
+  color: #3a4a42;
   font-size: 32px;
   text-decoration: none;
   line-height: 44px;
@@ -108,7 +109,7 @@ header nav h3 a {
   width: 100%;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .mobile-nav {
     display: none;
   }
@@ -118,7 +119,6 @@ header nav h3 a {
   }
 }
 
-
 section {
   width: 100%;
   position: absolute;
@@ -127,7 +127,6 @@ section {
   background-size: cover;
   height: 105%;
 }
-
 
 section .content h1 {
   position: static;
@@ -244,7 +243,6 @@ section .content p {
 
   header nav ul {
     display: none;
-
   }
 }
 
@@ -1168,7 +1166,6 @@ li.skills {
     color: #172b4d;
     font-weight: 600;
     margin-left: 20rem;
-   
   }
 
   nav ul li {
