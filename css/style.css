@@ -41,10 +41,121 @@ header nav h3 a {
   color: #28352f;
 }
 
-header nav img {
-  margin-left: 210px;
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
-  color: #28352f;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  float: right;
+  margin-top: -4em;
+  margin-right: 20px;
+  z-index: 99;
+}
+
+.hamburger .bar {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #28352f;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #28352f;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger::before {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #28352f;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger.is-active::before {
+  transform: rotate(-45deg) translate(-6px, 2px);
+}
+
+.hamburger.is-active::after {
+  transform: rotate(45deg) translate(-10px, -6px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 100%;
+  min-height: 100vh;
+  z-index: 98;
+  background-color: #fff;
+  margin-top: 60px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.mobile-nav ul {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  transition: 0.4s;
+  margin: 0;
+}
+
+.content-list li {
+  list-style-type: none;
+}
+
+.mobile-nav ul li {
+  padding: 10px 0;
+}
+
+.content-list li a {
+  padding: 9px;
+  list-style: none;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
 
 section {
@@ -123,15 +234,6 @@ section .content p {
   flex-direction: row;
   margin-top: 50px;
   margin-left: 62px;
-}
-
-.content-list li {
-  list-style-type: none;
-}
-
-.content-list li a {
-  padding: 9px;
-  list-style: none;
 }
 
 .content-list li a img {
@@ -245,11 +347,6 @@ section .content p {
   align-items: center;
   text-align: center;
   color: #3a4a42;
-}
-
-ul {
-  text-decoration: none;
-  list-style: none;
 }
 
 .section-1 {
@@ -1072,6 +1169,10 @@ li.skills {
   }
 
   #my-email {
+    display: none;
+  }
+
+  .hamburger {
     display: none;
   }
 }
