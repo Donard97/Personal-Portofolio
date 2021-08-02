@@ -65,7 +65,7 @@ header nav h3 a {
   display: block;
   height: 2px;
   background-color: #28352f;
-  margin: 6px 0px;
+  margin: 6px 0;
   transition: 0.4s;
 }
 
@@ -88,7 +88,7 @@ header nav h3 a {
   left: 100%;
   min-height: 100vh;
   z-index: 98;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 60px;
 }
 
