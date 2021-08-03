@@ -1735,3 +1735,56 @@ li.skills {
   bottom: 0;
   background-color: #C1C7D0;
 }
+
+@media screen and (max-width: 767px) { 
+  #prj-img-1 {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) { 
+  #prj-img {
+    display: none;
+  }
+
+  .modal-section { 
+    width: 70%;
+    background-color: white;
+    text-emphasis: center;
+    margin-left: 6rem;
+    height: 150%;
+  }
+
+  #prj-img-1 {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .modal-section .times {
+    font-size: 46px;
+    margin-left: 62rem;
+}
+
+.modal-section .modal-title { 
+  width: 60%;
+}
+
+.modal-section .modal-list {
+  margin-top: -2rem;
+}
+
+.modal-section .modal-paragraph {
+  width: 100%;
+}
+
+.modal-section .btn {
+  margin-top: -28rem;
+  float: right;
+}
+
+.modal-section .modal-title {
+  font-size: 32px;
+  line-height: 44px;
+}
+}
