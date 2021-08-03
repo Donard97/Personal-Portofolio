@@ -1644,7 +1644,6 @@ li.skills {
   background-color: white;
   z-index: 999;
   display: none;
-
 }
 
 .modal-section .modal-container {
@@ -1652,7 +1651,6 @@ li.skills {
   background-color: white;
   position: absolute;
 }
-
 
 .modal-section .modal-content {
   padding: 15px;
@@ -1733,25 +1731,23 @@ li.skills {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #C1C7D0;
+  background-color: #c1c7d0;
 }
 
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
   #prj-img-1 {
     display: none;
   }
 }
 
-
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   #prj-img {
     display: none;
   }
 
-  .modal-section { 
+  .modal-section {
     width: 70%;
     background-color: white;
-    text-emphasis: center;
     margin-left: 6rem;
     height: 150%;
   }
@@ -1764,27 +1760,24 @@ li.skills {
   .modal-section .times {
     font-size: 46px;
     margin-left: 62rem;
-}
+  }
 
-.modal-section .modal-title { 
-  width: 60%;
-}
+  .modal-section .modal-title {
+    width: 60%;
+    font-size: 32px;
+    line-height: 44px;
+  }
 
-.modal-section .modal-list {
-  margin-top: -2rem;
-}
+  .modal-section .modal-list {
+    margin-top: -2rem;
+  }
 
-.modal-section .modal-paragraph {
-  width: 100%;
-}
+  .modal-section .modal-paragraph {
+    width: 100%;
+  }
 
-.modal-section .btn {
-  margin-top: -28rem;
-  float: right;
-}
-
-.modal-section .modal-title {
-  font-size: 32px;
-  line-height: 44px;
-}
+  .modal-section .btn {
+    margin-top: -28rem;
+    float: right;
+  }
 }
