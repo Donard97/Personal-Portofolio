@@ -1637,3 +1637,101 @@ li.skills {
     margin-left: 49%;
   }
 }
+
+.modal-section {
+  width: 343px;
+  height: 836px;
+  background-color: white;
+  z-index: 999;
+  display: none;
+
+}
+
+.modal-section .modal-container {
+  z-index: 999;
+  background-color: white;
+  position: absolute;
+}
+
+
+.modal-section .modal-content {
+  padding: 15px;
+}
+
+.modal-section .times {
+  color: white;
+  position: absolute;
+  font-size: 38px;
+  margin-left: 284px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.modal-section .modal-title {
+  width: 259px;
+  height: 135px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.modal-section .modal-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -2.6rem;
+}
+
+.modal-section .modal-list li {
+  height: 14px;
+  width: 68px;
+  border-radius: 6px;
+  padding: 8px 2px;
+  background-color: #ebf0ee;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3a4a42;
+  line-height: 16px;
+  margin: 5px;
+}
+
+.modal-section .modal-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.modal-section .btn {
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.modal-section .btn a {
+  background-color: #36b37f;
+  color: #fff;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 3%;
+  padding: 10px 25px 10px 25px;
+  border-radius: 4px;
+}
+
+.modal-section .btn a img {
+  margin-left: 5px;
+  margin-bottom: -4px;
+}
+
+#prj-img {
+  width: 100%;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #C1C7D0;
+}
