@@ -1515,6 +1515,10 @@ li.skills {
   .contact-form .social-media {
     padding-bottom: 15px;
   }
+
+  .contact-form form .email-msg {
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 1238px) and (max-width: 1468px) {
@@ -1537,8 +1541,13 @@ li.skills {
   }
 
   #form .form-btn {
-    margin-left: 54% !important;
-  }
+    margin-left: 54% !    
+}
+
+.contact-form form .email-msg {
+  width: 500px;
+}
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1238px) {
@@ -1563,6 +1572,9 @@ li.skills {
 
   #form .form-btn {
     margin-left: 54% !important;
+  }
+  .contact-form form .email-msg {
+    width: 400px;
   }
 }
 
@@ -1635,6 +1647,11 @@ li.skills {
   #form .form-btn {
     margin-left: 49%;
   }
+
+  .contact-form form .email-msg {
+    width: 600px;
+  }
+  
 }
 
 .modal-section {
@@ -1791,4 +1808,19 @@ li.skills {
     margin-top: -16.5rem;
     float: right;
   }
+}
+
+.contact-form form .email-msg {
+  margin-top: 0;
+  color: white;
+  border: 1px solid #36b37f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 13px;
+  padding: 0 14px;
+  background-color: #36b37f;
+  font-weight: 500;
+  display: none;
+  text-align: center;
+  letter-spacing: 2px;
 }
