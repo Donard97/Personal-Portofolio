@@ -1541,7 +1541,7 @@ li.skills {
   }
 
   #form .form-btn {
-    margin-left: 54% !;
+    margin-left: 54%;
   }
 
   .contact-form form .email-msg {
@@ -1572,6 +1572,7 @@ li.skills {
   #form .form-btn {
     margin-left: 54% !important;
   }
+
   .contact-form form .email-msg {
     width: 400px;
   }

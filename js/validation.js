@@ -1,3 +1,6 @@
+/* eslint-disable id-length */
+/* eslint-disable no-negated-condition */
+/* eslint-disable func-style */
 const formValidation = document.querySelector('#form');
 const emailControl = document.querySelector('#email-address');
 
@@ -8,7 +11,7 @@ alertMessage.textContent = 'Your email should only contain lowercase letters.';
 const errorEmail = document.querySelector('.email-msg');
 errorEmail.appendChild(alertMessage);
 
-function validationFunct(e) {
+function validationFunct (e) {
   if (emailControl.value !== emailControl.value.toLowerCase()) {
     errorEmail.style.display = 'block';
     e.preventDefault();
