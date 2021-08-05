@@ -1,4 +1,2 @@
-I created .gitignore to make sure that any files that are not relevant are ignored by git.
-*.md
-*.json
+test.md
 node_modules/
