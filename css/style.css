@@ -1792,3 +1792,18 @@ li.skills {
     float: right;
   }
 }
+
+.contact-form form .email-msg {
+  margin-top: 0;
+  color: white;
+  border: 1px solid #36b37f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 13px;
+  padding: 0 14px;
+  background-color: #36b37f;
+  font-weight: 500;
+  display: none;
+  text-align: center;
+  letter-spacing: 2px;
+}
