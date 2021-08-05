@@ -1541,13 +1541,12 @@ li.skills {
   }
 
   #form .form-btn {
-    margin-left: 54% !    
-}
+    margin-left: 54% !;
+  }
 
-.contact-form form .email-msg {
-  width: 500px;
-}
-
+  .contact-form form .email-msg {
+    width: 500px;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1238px) {
@@ -1651,7 +1650,6 @@ li.skills {
   .contact-form form .email-msg {
     width: 600px;
   }
-  
 }
 
 .modal-section {

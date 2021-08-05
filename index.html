@@ -1,448 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <title>Personal Portfolio</title>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-QQNP4YXK46"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-QQNP4YXK46");
-    </script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type="text/css" />
+  <title>Personal Portfolio</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQNP4YXK46"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  <body>
-    <header>
-      <nav>
-        <h3><a href="#">Welcome</a></h3>
-        <ul>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <button type="button" class="hamburger">
-        <span class="bar"></span>
-      </button>
-    </header>
-    <nav class="mobile-nav">
+    gtag("config", "G-QQNP4YXK46");
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h3><a href="#">Welcome</a></h3>
       <ul>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
     </nav>
+    <button type="button" class="hamburger">
+      <span class="bar"></span>
+    </button>
+  </header>
+  <nav class="mobile-nav">
+    <ul>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section class="first-content">
-      <div class="content">
-        <h1>
-          Hey there. I’m Donard <br /><span>I’m a software developer</span>
-        </h1>
-        <p class="animate">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-      </div>
-      <ul class="content-list">
-        <li>
-          <a href="https://twitter.com/donardgolaj"
-            ><img src="images/twitter.png" alt="twitter"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/donard-golaj/"
-            ><img src="images/Linkedin.png" alt="linkedin"
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/medium.png" alt="medium" /></a>
-        </li>
-        <li>
-          <a href="https://github.com/Donard97"
-            ><img src="images/github.png" alt="github"
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/angellist.png" alt="angellist" /></a>
+  <section class="first-content">
+    <div class="content">
+      <h1>
+        Hey there. I’m Donard <br /><span>I’m a software developer</span>
+      </h1>
+      <p class="animate">
+        I can help you build a product , feature or website Look through some
+        of my work and experience! If you like what you see and have a project
+        you need coded, don’t hestiate to contact me.
+      </p>
+    </div>
+    <ul class="content-list">
+      <li>
+        <a href="https://twitter.com/donardgolaj"><img src="images/twitter.png" alt="twitter" /></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/donard-golaj/"><img src="images/Linkedin.png" alt="linkedin" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/medium.png" alt="medium" /></a>
+      </li>
+      <li>
+        <a href="https://github.com/Donard97"><img src="images/github.png" alt="github" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/angellist.png" alt="angellist" /></a>
+      </li>
+    </ul>
+  </section>
+  <button id="btn" type="button">
+    <img src="images/Disabled.png" alt="button" />
+  </button>
+
+  <section class="section-1" id="portfolio">
+    <div class="first-header">
+      <h2>My Recent Works</h2>
+      <span></span>
+    </div>
+    <div class="first-project">
+      <ul class="project-list">
+        <li class="project-image">
+          <img class="p1" src="images/img-work.png" alt="project-image" />
         </li>
       </ul>
-    </section>
-    <button id="btn" type="button">
-      <img src="images/Disabled.png" alt="button" />
-    </button>
+      <ul id="dsc-project">
+        <li class="project-header">
+          <h3>Multi Post Stories Gain+Glory</h3>
+        </li>
+        <li class="languages-used">
+          <ul class="lng-1">
+            <li>Ruby on rails</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+          </ul>
+        </li>
+        <li class="btn-project-1">
+          <button class="btn-1" id="open-btn" onclick="modalFunction(0)" type="button">
+            See Project
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="second-project">
+      <ul class="project-list">
+        <li class="project-image">
+          <img class="p1" src="images/img-work.png" alt="project-image" />
+        </li>
+      </ul>
+      <ul id="dsc-project-1">
+        <li class="project-header">
+          <h3>Multi Post Stories Gain+Glory</h3>
+        </li>
+        <li class="languages-used">
+          <ul class="lng-1">
+            <li>Ruby on rails</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+          </ul>
+        </li>
+        <li class="btn-project-1">
+          <button class="btn-1" type="button" onclick="modalFunction(1)">
+            See Project
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="third-project">
+      <ul class="project-list">
+        <li class="project-image">
+          <img class="p1" src="images/img-work.png" alt="project-image" />
+        </li>
+      </ul>
+      <ul id="dsc-project-2">
+        <li class="project-header">
+          <h3>Multi Post Stories Gain+Glory</h3>
+        </li>
+        <li class="languages-used">
+          <ul class="lng-1">
+            <li>Ruby on rails</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+          </ul>
+        </li>
+        <li class="btn-project-1">
+          <button class="btn-1" type="button" onclick="modalFunction(2)">
+            See Project
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="fourth-project">
+      <ul class="project-list">
+        <li class="project-image">
+          <img class="p1" src="images/img-work.png" alt="project-image" />
+        </li>
+      </ul>
+      <ul id="dsc-project-3">
+        <li class="project-header">
+          <h3>Multi Post Stories Gain+Glory</h3>
+        </li>
+        <li class="languages-used">
+          <ul class="lng-1">
+            <li>Ruby on rails</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+          </ul>
+        </li>
+        <li class="btn-project-1">
+          <button class="btn-1" type="button" onclick="modalFunction(3)">
+            See Project
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="fifth-project">
+      <ul class="project-list">
+        <li class="project-image">
+          <img class="p1" src="images/img-work.png" alt="project-image" />
+        </li>
+      </ul>
+      <ul id="dsc-project-4">
+        <li class="project-header">
+          <h3>Multi Post Stories Gain+Glory</h3>
+        </li>
+        <li class="languages-used">
+          <ul class="lng-1">
+            <li>Ruby on rails</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+          </ul>
+        </li>
+        <li class="btn-project-1">
+          <button class="btn-1" type="button" onclick="modalFunction(4)">
+            See Project
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="sixth-project">
+      <ul class="project-list">
+        <li class="project-image">
+          <img class="p1" src="images/img-work.png" alt="project-image" />
+        </li>
+      </ul>
+      <ul id="dsc-project-5">
+        <li class="project-header">
+          <h3>Multi Post Stories Gain+Glory</h3>
+        </li>
+        <li class="languages-used">
+          <ul class="lng-1">
+            <li>Ruby on rails</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+          </ul>
+        </li>
+        <li class="btn-project-1">
+          <button class="btn-1" type="button" onclick="modalFunction(5)">
+            See Project
+          </button>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <section class="section-1" id="portfolio">
-      <div class="first-header">
-        <h2>My Recent Works</h2>
-        <span></span>
-      </div>
-      <div class="first-project">
-        <ul class="project-list">
-          <li class="project-image">
-            <img class="p1" src="images/img-work.png" alt="project-image" />
-          </li>
-        </ul>
-        <ul id="dsc-project">
-          <li class="project-header">
-            <h3>Multi Post Stories Gain+Glory</h3>
-          </li>
-          <li class="languages-used">
-            <ul class="lng-1">
-              <li>Ruby on rails</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-            </ul>
-          </li>
-          <li class="btn-project-1">
-            <button
-              class="btn-1"
-              id="open-btn"
-              onclick="modalFunction(0)"
-              type="button"
-            >
-              See Project
-            </button>
-          </li>
-        </ul>
-      </div>
-      <div class="second-project">
-        <ul class="project-list">
-          <li class="project-image">
-            <img class="p1" src="images/img-work.png" alt="project-image" />
-          </li>
-        </ul>
-        <ul id="dsc-project-1">
-          <li class="project-header">
-            <h3>Multi Post Stories Gain+Glory</h3>
-          </li>
-          <li class="languages-used">
-            <ul class="lng-1">
-              <li>Ruby on rails</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-            </ul>
-          </li>
-          <li class="btn-project-1">
-            <button class="btn-1" type="button" onclick="modalFunction(1)">
-              See Project
-            </button>
-          </li>
-        </ul>
-      </div>
-      <div class="third-project">
-        <ul class="project-list">
-          <li class="project-image">
-            <img class="p1" src="images/img-work.png" alt="project-image" />
-          </li>
-        </ul>
-        <ul id="dsc-project-2">
-          <li class="project-header">
-            <h3>Multi Post Stories Gain+Glory</h3>
-          </li>
-          <li class="languages-used">
-            <ul class="lng-1">
-              <li>Ruby on rails</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-            </ul>
-          </li>
-          <li class="btn-project-1">
-            <button class="btn-1" type="button" onclick="modalFunction(2)">
-              See Project
-            </button>
-          </li>
-        </ul>
-      </div>
-      <div class="fourth-project">
-        <ul class="project-list">
-          <li class="project-image">
-            <img class="p1" src="images/img-work.png" alt="project-image" />
-          </li>
-        </ul>
-        <ul id="dsc-project-3">
-          <li class="project-header">
-            <h3>Multi Post Stories Gain+Glory</h3>
-          </li>
-          <li class="languages-used">
-            <ul class="lng-1">
-              <li>Ruby on rails</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-            </ul>
-          </li>
-          <li class="btn-project-1">
-            <button class="btn-1" type="button" onclick="modalFunction(3)">
-              See Project
-            </button>
-          </li>
-        </ul>
-      </div>
-      <div class="fifth-project">
-        <ul class="project-list">
-          <li class="project-image">
-            <img class="p1" src="images/img-work.png" alt="project-image" />
-          </li>
-        </ul>
-        <ul id="dsc-project-4">
-          <li class="project-header">
-            <h3>Multi Post Stories Gain+Glory</h3>
-          </li>
-          <li class="languages-used">
-            <ul class="lng-1">
-              <li>Ruby on rails</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-            </ul>
-          </li>
-          <li class="btn-project-1">
-            <button class="btn-1" type="button" onclick="modalFunction(4)">
-              See Project
-            </button>
-          </li>
-        </ul>
-      </div>
-      <div class="sixth-project">
-        <ul class="project-list">
-          <li class="project-image">
-            <img class="p1" src="images/img-work.png" alt="project-image" />
-          </li>
-        </ul>
-        <ul id="dsc-project-5">
-          <li class="project-header">
-            <h3>Multi Post Stories Gain+Glory</h3>
-          </li>
-          <li class="languages-used">
-            <ul class="lng-1">
-              <li>Ruby on rails</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-            </ul>
-          </li>
-          <li class="btn-project-1">
-            <button class="btn-1" type="button" onclick="modalFunction(5)">
-              See Project
-            </button>
-          </li>
-        </ul>
-      </div>
-    </section>
+  <section class="modal-section hidden" id="modal">
+    <div class="modal-container">
+      <div class="modal-content">
+        <div class="modal-image">
+          <div class="times" id="close-btn" onclick="toggle()">&times;</div>
+          <img id="prj-img" src="images/mobile-popup.png" alt="" class="prj-img" />
+          <img id="prj-img-1" src="images/destkop-popup.png" alt="" class="prj-img-1" />
+        </div>
+        <div class="modal-title">
+          <h3 class="about-heading modal-heading" id="project-header"></h3>
+        </div>
 
-    <section class="modal-section hidden" id="modal">
-      <div class="modal-container">
-        <div class="modal-content">
-          <div class="modal-image">
-            <div class="times" id="close-btn" onclick="toggle()">&times;</div>
-            <img
-              id="prj-img"
-              src="images/mobile-popup.png"
-              alt=""
-              class="prj-img"
-            />
-            <img
-              id="prj-img-1"
-              src="images/destkop-popup.png"
-              alt=""
-              class="prj-img-1"
-            />
-          </div>
-          <div class="modal-title">
-            <h3 class="about-heading modal-heading" id="project-header"></h3>
-          </div>
-
-          <ul class="modal-list"></ul>
-          <div class="modal-paragraph">
-            <p class="modal-p" id="decription"></p>
-          </div>
-          <div class="btn">
-            <a href="" class="f-icon-1"
-              >See Live <img src="images/external-icon.png" alt="external-icon"
-            /></a>
-            <a href="" class="f-icon-2"
-              >See Source<img src="images/githubvector.png" alt="github-icon"
-            /></a>
-          </div>
+        <ul class="modal-list"></ul>
+        <div class="modal-paragraph">
+          <p class="modal-p" id="decription"></p>
+        </div>
+        <div class="btn">
+          <a href="" class="f-icon-1">See Live <img src="images/external-icon.png" alt="external-icon" /></a>
+          <a href="" class="f-icon-2">See Source<img src="images/githubvector.png" alt="github-icon" /></a>
         </div>
       </div>
-      <div id="overlay" class="overlay"></div>
-    </section>
-
-    <section class="section-2" id="about">
-      <div class="about-me">
-        <h2>About me</h2>
-        <p>
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-        <button class="btn-2" type="button">Get my resume</button>
-      </div>
-    </section>
-
-    <div class="skills-section">
-      <div class="skills-content">
-        <ul class="language-1">
-          <li class="lng-icon">
-            <img id="icon-1" src="images/icon-languages.png" alt="languages" />
-          </li>
-          <li class="languages">
-            <h3>Languages</h3>
-            <ul class="about-lng">
-              <li class="lng-2">Javascript</li>
-              <li class="lng-2">Ruby</li>
-              <li class="lng-2">HTML</li>
-              <li class="lng-2">CSS</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div class="skills-content">
-        <ul class="frameworks">
-          <li class="frameworks-icon">
-            <img
-              id="icon-2"
-              src="images/icon-frameworks.png"
-              alt="frameworks"
-            />
-          </li>
-          <li class="frameworks-list">
-            <h3>Frameworks</h3>
-            <ul class="about-frw">
-              <li class="frw-1">Bootstrap</li>
-              <li class="frw-1">Ruby on rails</li>
-              <li class="frw-1">RSpec</li>
-              <li class="frw-1">Capybara</li>
-              <li class="frw-1">Selenium</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div class="skills-content">
-        <ul class="skills-1">
-          <li class="skills-icon">
-            <img id="icon-3" src="images/icon-skills.png" alt="skills" />
-          </li>
-          <li class="skills">
-            <h3>Skills</h3>
-            <ul class="about-skills">
-              <li class="skills-2">Codekit</li>
-              <li class="skills-2">Github</li>
-              <li class="skills-2">Codepen</li>
-              <li class="skills-2">Gitlab</li>
-              <li class="skills-2">Terminal</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
     </div>
+    <div id="overlay" class="overlay"></div>
+  </section>
 
-    <section class="contact-form" id="contact">
-      <div class="contact-header">
-        <h3 id="cf-header">
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </h3>
-      </div>
-      <form
-        id="form"
-        name="simple-contact"
-        accept-charset="utf-8"
-        action="https://formspree.io/f/mwkanavz"
-        method="POST"
-      >
-        <fieldset id="fieldset-inputs">
-          <div class="full-name">
-            <input
-              type="text"
-              name="name"
-              id="full-name"
-              placeholder="Full name"
-              maxlength="30"
-              required
-            />
-            <input
-              class="lname"
-              type="text"
-              name="name"
-              id="Last-name"
-              placeholder="Last name"
-              maxlength="30"
-              required
-            />
-          </div>
-          <input
-            type="email"
-            name="email"
-            id="email-address"
-            placeholder="Email address"
-            required
-          />
-          <textarea
-            rows="5"
-            name="message"
-            id="message"
-            placeholder="Enter text here"
-            maxlength="500"
-            required
-          ></textarea>
-          <p class="email-msg"></p>
-        </fieldset>
-        <input class="form-btn" type="submit" value="Get in touch" />
-        
-      </form>
+  <section class="section-2" id="about">
+    <div class="about-me">
+      <h2>About me</h2>
+      <p>
+        I can help you build a product , feature or website Look through some
+        of my work and experience! If you like what you see and have a project
+        you need coded, don’t hestiate to contact me.
+      </p>
+      <button class="btn-2" type="button">Get my resume</button>
+    </div>
+  </section>
 
-      <hr id="hr" />
-      <ul class="social-media">
-        <li>
-          <a href="https://twitter.com/donardgolaj"
-            ><img src="images/twitter.png" alt="twitter"
-          /></a>
+  <div class="skills-section">
+    <div class="skills-content">
+      <ul class="language-1">
+        <li class="lng-icon">
+          <img id="icon-1" src="images/icon-languages.png" alt="languages" />
         </li>
-        <li>
-          <a href="https://www.linkedin.com/in/donard-golaj/"
-            ><img src="images/Linkedin.png" alt="linkedin"
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/medium.png" alt="medium" /></a>
-        </li>
-        <li>
-          <a href="https://github.com/Donard97"
-            ><img src="images/github.png" alt="github"
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/angellist.png" alt="angellist" /></a>
+        <li class="languages">
+          <h3>Languages</h3>
+          <ul class="about-lng">
+            <li class="lng-2">Javascript</li>
+            <li class="lng-2">Ruby</li>
+            <li class="lng-2">HTML</li>
+            <li class="lng-2">CSS</li>
+          </ul>
         </li>
       </ul>
+    </div>
 
-      <p id="my-email">donardgolaj@gmail.com</p>
-    </section>
-    <script src="js/script.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/validation.js"></script>
-  </body>
+    <div class="skills-content">
+      <ul class="frameworks">
+        <li class="frameworks-icon">
+          <img id="icon-2" src="images/icon-frameworks.png" alt="frameworks" />
+        </li>
+        <li class="frameworks-list">
+          <h3>Frameworks</h3>
+          <ul class="about-frw">
+            <li class="frw-1">Bootstrap</li>
+            <li class="frw-1">Ruby on rails</li>
+            <li class="frw-1">RSpec</li>
+            <li class="frw-1">Capybara</li>
+            <li class="frw-1">Selenium</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills-content">
+      <ul class="skills-1">
+        <li class="skills-icon">
+          <img id="icon-3" src="images/icon-skills.png" alt="skills" />
+        </li>
+        <li class="skills">
+          <h3>Skills</h3>
+          <ul class="about-skills">
+            <li class="skills-2">Codekit</li>
+            <li class="skills-2">Github</li>
+            <li class="skills-2">Codepen</li>
+            <li class="skills-2">Gitlab</li>
+            <li class="skills-2">Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="contact-form" id="contact">
+    <div class="contact-header">
+      <h3 id="cf-header">
+        I'm always interested in hearing about new projects, so if you'd like
+        to chat please get in touch.
+      </h3>
+    </div>
+    <form id="form" name="simple-contact" accept-charset="utf-8" action="https://formspree.io/f/mwkanavz" method="POST">
+      <fieldset id="fieldset-inputs">
+        <div class="full-name">
+          <input type="text" name="name" id="full-name" placeholder="Full name" maxlength="30" required />
+          <input class="lname" type="text" name="name" id="Last-name" placeholder="Last name" maxlength="30" required />
+        </div>
+        <input type="email" name="email" id="email-address" placeholder="Email address" required />
+        <textarea rows="5" name="message" id="message" placeholder="Enter text here" maxlength="500"
+          required></textarea>
+        <p class="email-msg"></p>
+      </fieldset>
+      <input class="form-btn" type="submit" value="Get in touch" />
+      <p class="email-msg"></p>
+      <input class="form-btn" type="button" value="Get in touch" />
+
+    </form>
+
+    <hr id="hr" />
+    <ul class="social-media">
+      <li>
+        <a href="https://twitter.com/donardgolaj"><img src="images/twitter.png" alt="twitter" /></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/donard-golaj/"><img src="images/Linkedin.png" alt="linkedin" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/medium.png" alt="medium" /></a>
+      </li>
+      <li>
+        <a href="https://github.com/Donard97"><img src="images/github.png" alt="github" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/angellist.png" alt="angellist" /></a>
+      </li>
+    </ul>
+
+    <p id="my-email">donardgolaj@gmail.com</p>
+  </section>
+  <script src="js/script.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+
 </html>
