@@ -9,22 +9,21 @@ HTML
 CSS
 
 # LIVE DEMO
- https://donard97.github.io/Personal-Portofolio/
+[Live link demo](https://donard97.github.io/Personal-Portofolio/)
 
 # AUTHORS
 
 👤 **Donard Golaj**
  
 
-Github : [Donard97] https://github.com/Donard97 <br>
-Twitter: [donardgolaj] https://twitter.com/donardgolaj <br>
-Linkdn : [donard-golaj] https://www.linkedin.com/in/donard-golaj/ <br>
+Github : [@Donard97](https://github.com/Donard97) <br>
+Twitter: [@donardgolaj](https://twitter.com/donardgolaj) <br>
+Linkdn : [@donard-golaj](https://www.linkedin.com/in/donard-golaj/) <br>
 
 
 👤 **Lilian Francis**
 
- GitHub: [@ifnotlily](https://github.com/ifnotlily)
- Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
+ GitHub: [@ifnotlily](https://github.com/ifnotlily) <br>
  LinkedIn: [lilian-francis](https://linkedin.com/in/lilian-francis) <br>
 
 👤 **Kossi Stack**
